@@ -1,0 +1,400 @@
+[
+ {
+  "calcule_le": "2026-11-06",
+  "codeurs": [
+   "Gemini",
+   "Grok",
+   "Manus",
+   "Mistral"
+  ],
+  "date": "2026-10-25",
+  "id": "serie5",
+  "lecture": "Les trois intervalles de confiance sont larges (environ ±0,2) : avec 29 cas, la série 5 ne permet pas de dire si le regard d'autrui est moins fiable que la direction. Les désaccords les plus fréquents opposent « inconnue » à « moins » (direction, 21 paires), « oui » à « indéterminé » (but, 22 paires) et « aucun » à « soigne son image » (regard, 16 paires) : ils portent sur le seuil à partir duquel on code, plus que sur des lectures opposées. La valeur « soigne son image » est la moins fiable : les codeurs l'opposent à « aucun » plus souvent qu'ils ne s'accordent sur elle (16 paires contre 6) ; sa définition est à resserrer.",
+  "lecture_en": "All three confidence intervals are wide (about ±0.2): with 29 cases, series 5 cannot tell whether oversight is less reliable than direction. The most frequent disagreements set \"unknown\" against \"less\" (direction, 21 pairs), \"yes\" against \"undetermined\" (goal, 22 pairs) and \"none\" against \"cares for its image\" (oversight, 16 pairs): they concern the threshold for coding rather than opposite readings. \"Cares for its image\" is the least reliable value: coders set it against \"none\" more often than they agree on it (16 pairs versus 6); its definition needs tightening.",
+  "methode": "Kappa de Fleiss sur quatre codeurs ; intervalle de confiance à 95 % par rééchantillonnage des cas (5 000 tirages) ; accord brut = proportion moyenne de paires de codeurs d'accord ; la matrice compte, pour chaque couple de valeurs, le nombre de paires de codeurs qui les ont choisies sur un même cas (la diagonale = accords).",
+  "methode_en": "Fleiss kappa over four coders; 95% confidence interval by resampling cases (5,000 draws); raw agreement = mean share of coder pairs agreeing; the matrix counts, for each pair of values, how many coder pairs chose them on the same case (diagonal = agreements).",
+  "serie": "Série 5 (25 octobre 2026)",
+  "unite": "Une fiche neutre par cas (29 cas), sans le nom du modèle ni le code initial",
+  "variables": {
+   "but": {
+    "accord_paires": 0.644,
+    "cas_majorite_3sur4": 20,
+    "cas_unanimes": 13,
+    "distribution": {
+     "collectif": 1,
+     "indetermine": 23,
+     "non": 25,
+     "oui": 61,
+     "partiellement": 6
+    },
+    "ic95": [
+     0.248,
+     0.598
+    ],
+    "kappa_fleiss": 0.439,
+    "matrice_paires": {
+     "collectif": {
+      "collectif": 0,
+      "indetermine": 1,
+      "non": 0,
+      "oui": 2,
+      "partiellement": 0
+     },
+     "indetermine": {
+      "collectif": 1,
+      "indetermine": 12,
+      "non": 14,
+      "oui": 22,
+      "partiellement": 8
+     },
+     "non": {
+      "collectif": 0,
+      "indetermine": 14,
+      "non": 26,
+      "oui": 7,
+      "partiellement": 2
+     },
+     "oui": {
+      "collectif": 2,
+      "indetermine": 22,
+      "non": 7,
+      "oui": 73,
+      "partiellement": 6
+     },
+     "partiellement": {
+      "collectif": 0,
+      "indetermine": 8,
+      "non": 2,
+      "oui": 6,
+      "partiellement": 1
+     }
+    },
+    "n_cas": 29,
+    "n_codeurs": 4
+   },
+   "direction": {
+    "accord_paires": 0.724,
+    "cas_majorite_3sur4": 22,
+    "cas_unanimes": 16,
+    "distribution": {
+     "ambigue": 11,
+     "inconnue": 38,
+     "moins": 65,
+     "plus": 2
+    },
+    "ic95": [
+     0.321,
+     0.686
+    ],
+    "kappa_fleiss": 0.516,
+    "matrice_paires": {
+     "ambigue": {
+      "ambigue": 4,
+      "inconnue": 11,
+      "moins": 10,
+      "plus": 4
+     },
+     "inconnue": {
+      "ambigue": 11,
+      "inconnue": 40,
+      "moins": 21,
+      "plus": 2
+     },
+     "moins": {
+      "ambigue": 10,
+      "inconnue": 21,
+      "moins": 82,
+      "plus": 0
+     },
+     "plus": {
+      "ambigue": 4,
+      "inconnue": 2,
+      "moins": 0,
+      "plus": 0
+     }
+    },
+    "n_cas": 29,
+    "n_codeurs": 4
+   },
+   "regard": {
+    "accord_paires": 0.747,
+    "cas_majorite_3sur4": 22,
+    "cas_unanimes": 18,
+    "distribution": {
+     "aucun": 82,
+     "cherche": 2,
+     "evite": 13,
+     "image": 11,
+     "renonce": 1,
+     "transparent": 7
+    },
+    "ic95": [
+     0.257,
+     0.658
+    ],
+    "kappa_fleiss": 0.467,
+    "matrice_paires": {
+     "aucun": {
+      "aucun": 104,
+      "cherche": 4,
+      "evite": 6,
+      "image": 16,
+      "renonce": 2,
+      "transparent": 10
+     },
+     "cherche": {
+      "aucun": 4,
+      "cherche": 1,
+      "evite": 0,
+      "image": 0,
+      "renonce": 0,
+      "transparent": 0
+     },
+     "evite": {
+      "aucun": 6,
+      "cherche": 0,
+      "evite": 15,
+      "image": 2,
+      "renonce": 0,
+      "transparent": 1
+     },
+     "image": {
+      "aucun": 16,
+      "cherche": 0,
+      "evite": 2,
+      "image": 6,
+      "renonce": 1,
+      "transparent": 2
+     },
+     "renonce": {
+      "aucun": 2,
+      "cherche": 0,
+      "evite": 0,
+      "image": 1,
+      "renonce": 0,
+      "transparent": 0
+     },
+     "transparent": {
+      "aucun": 10,
+      "cherche": 0,
+      "evite": 1,
+      "image": 2,
+      "renonce": 0,
+      "transparent": 4
+     }
+    },
+    "n_cas": 29,
+    "n_codeurs": 4
+   }
+  }
+ },
+ {
+  "calcule_le": "2026-11-08",
+  "codeurs": [
+   "ChatGPT",
+   "Gemini",
+   "Grok 4.7",
+   "Kimi",
+   "Manus",
+   "Mistral"
+  ],
+  "date": "2026-11-08",
+  "id": "serie6",
+  "lecture": "Direction (0,59) et but de l'action (0,46) restent au niveau des séries précédentes. Changement de moyen, mesuré pour la première fois : 0,49 ; les désaccords portent surtout sur l'existence d'un blocage (« aucun blocage » contre « oui »), et l'échantillon ne contient aucun cas codé « au service d'autre chose que la tâche ». Récompense : les codeurs externes s'accordent entre eux (majorité de 4 sur 6 dans les 40 cas, 83 % d'accord brut) mais le kappa est bas parce que presque tout est « Non » ; le désaccord est avec le codage initial de Claude, qui contredit la majorité dans 16 cas et parfois son propre champ contexte (« Oui » en évaluation, « Inconnue » en entraînement). Un même codeur Grok, passé deux fois, ne reproduit son but de l'action que dans 25 cas sur 40. En attente d'arbitrage par l'autrice : aucun code n'a encore été modifié.",
+  "lecture_en": "Direction (0.59) and goal of the action (0.46) remain at the level of previous series. Change of means, measured for the first time: 0.49; disagreements mostly concern whether there was a block ('no block' versus 'yes'), and the sample contains no case coded 'serving something other than the task'. Reward: external coders agree with each other (majority of 4 out of 6 in all 40 cases, 83% raw agreement) but kappa is low because almost everything is 'No'; the disagreement is with Claude's initial coding, which contradicts the majority in 16 cases and sometimes its own context field ('Yes' in evaluation, 'Unknown' in training). The same Grok coder, run twice, reproduces its goal-of-action code in only 25 cases out of 40. Awaiting arbitration by the author: no code has been changed yet.",
+  "methode": "Six codeurs externes de laboratoires différents (OpenAI, Google, xAI, Moonshot, Manus, Mistral), chacun en conversation fantôme avec le même fichier et le même message. Kappa de Fleiss sur six codeurs ; IC 95 % par rééchantillonnage des cas (5 000 tirages) ; accord brut = proportion de paires de codeurs d'accord ; la colonne « majorité » compte les cas où au moins 4 codeurs sur 6 s'accordent. Le modèle exact de Manus n'est pas connu (il a utilisé des modèles Claude par le passé).",
+  "methode_en": "Six external coders from different labs (OpenAI, Google, xAI, Moonshot, Manus, Mistral), each in a ghost conversation with the same file and the same message. Fleiss' kappa over six coders; 95% CI by resampling cases (5,000 draws); raw agreement = share of coder pairs agreeing; the 'majority' column counts cases where at least 4 coders out of 6 agree. Manus's exact model is unknown (it has used Claude models in the past).",
+  "serie": "Série 6 (7–8 novembre 2026)",
+  "unite": "Une fiche neutre par cas (40 cas d'agents, hors xAI), résumé et source, sans le code initial ni les hypothèses",
+  "variables": {
+   "but": {
+    "accord_paires": 0.722,
+    "cas_majorite_3sur4": 36,
+    "cas_unanimes": 19,
+    "distribution": {
+     "Indéterminé": 32,
+     "Non": 17,
+     "Oui": 161,
+     "Partiellement": 14,
+     "Sert la tâche du collectif": 16
+    },
+    "ic95": [
+     0.345,
+     0.577
+    ],
+    "kappa_fleiss": 0.464,
+    "matrice_paires": {
+     "Indéterminé": {
+      "Indéterminé": 47,
+      "Non": 14,
+      "Oui": 45,
+      "Partiellement": 7,
+      "Sert la tâche du collectif": 0
+     },
+     "Non": {
+      "Indéterminé": 14,
+      "Non": 15,
+      "Oui": 28,
+      "Partiellement": 13,
+      "Sert la tâche du collectif": 0
+     },
+     "Oui": {
+      "Indéterminé": 45,
+      "Non": 28,
+      "Oui": 336,
+      "Partiellement": 34,
+      "Sert la tâche du collectif": 26
+     },
+     "Partiellement": {
+      "Indéterminé": 7,
+      "Non": 13,
+      "Oui": 34,
+      "Partiellement": 8,
+      "Sert la tâche du collectif": 0
+     },
+     "Sert la tâche du collectif": {
+      "Indéterminé": 0,
+      "Non": 0,
+      "Oui": 26,
+      "Partiellement": 0,
+      "Sert la tâche du collectif": 27
+     }
+    },
+    "n_cas": 40,
+    "n_codeurs": 6
+   },
+   "direction": {
+    "accord_paires": 0.825,
+    "cas_majorite_3sur4": 37,
+    "cas_unanimes": 25,
+    "distribution": {
+     "Ambiguë": 10,
+     "Contrôle préservé": 30,
+     "Inconnue": 22,
+     "Moins de contrôle": 178
+    },
+    "ic95": [
+     0.395,
+     0.735
+    ],
+    "kappa_fleiss": 0.587,
+    "matrice_paires": {
+     "Ambiguë": {
+      "Ambiguë": 5,
+      "Contrôle préservé": 9,
+      "Inconnue": 5,
+      "Moins de contrôle": 26
+     },
+     "Contrôle préservé": {
+      "Ambiguë": 9,
+      "Contrôle préservé": 55,
+      "Inconnue": 23,
+      "Moins de contrôle": 8
+     },
+     "Inconnue": {
+      "Ambiguë": 5,
+      "Contrôle préservé": 23,
+      "Inconnue": 24,
+      "Moins de contrôle": 34
+     },
+     "Moins de contrôle": {
+      "Ambiguë": 26,
+      "Contrôle préservé": 8,
+      "Inconnue": 34,
+      "Moins de contrôle": 411
+     }
+    },
+    "n_cas": 40,
+    "n_codeurs": 6
+   },
+   "recompense": {
+    "accord_paires": 0.833,
+    "cas_majorite_3sur4": 40,
+    "cas_unanimes": 20,
+    "distribution": {
+     "Inconnue": 18,
+     "Non": 214,
+     "Oui": 6,
+     "Pas d'avantage évident": 2
+    },
+    "ic95": [
+     -0.107,
+     0.473
+    ],
+    "kappa_fleiss": 0.161,
+    "matrice_paires": {
+     "Inconnue": {
+      "Inconnue": 0,
+      "Non": 90,
+      "Oui": 0,
+      "Pas d'avantage évident": 0
+     },
+     "Non": {
+      "Inconnue": 90,
+      "Non": 485,
+      "Oui": 0,
+      "Pas d'avantage évident": 10
+     },
+     "Oui": {
+      "Inconnue": 0,
+      "Non": 0,
+      "Oui": 15,
+      "Pas d'avantage évident": 0
+     },
+     "Pas d'avantage évident": {
+      "Inconnue": 0,
+      "Non": 10,
+      "Oui": 0,
+      "Pas d'avantage évident": 0
+     }
+    },
+    "n_cas": 40,
+    "n_codeurs": 6
+   },
+   "substitution_moyen": {
+    "accord_paires": 0.772,
+    "cas_majorite_3sur4": 32,
+    "cas_unanimes": 24,
+    "distribution": {
+     "Aucun blocage rapporté": 170,
+     "Non : s'arrête, signale ou demande": 11,
+     "Oui, au service d'autre chose que la tâche": 7,
+     "Oui, au service de la tâche": 52
+    },
+    "ic95": [
+     0.291,
+     0.661
+    ],
+    "kappa_fleiss": 0.491,
+    "matrice_paires": {
+     "Aucun blocage rapporté": {
+      "Aucun blocage rapporté": 360,
+      "Non : s'arrête, signale ou demande": 15,
+      "Oui, au service d'autre chose que la tâche": 26,
+      "Oui, au service de la tâche": 89
+     },
+     "Non : s'arrête, signale ou demande": {
+      "Aucun blocage rapporté": 15,
+      "Non : s'arrête, signale ou demande": 19,
+      "Oui, au service d'autre chose que la tâche": 0,
+      "Oui, au service de la tâche": 2
+     },
+     "Oui, au service d'autre chose que la tâche": {
+      "Aucun blocage rapporté": 26,
+      "Non : s'arrête, signale ou demande": 0,
+      "Oui, au service d'autre chose que la tâche": 2,
+      "Oui, au service de la tâche": 5
+     },
+     "Oui, au service de la tâche": {
+      "Aucun blocage rapporté": 89,
+      "Non : s'arrête, signale ou demande": 2,
+      "Oui, au service d'autre chose que la tâche": 5,
+      "Oui, au service de la tâche": 82
+     }
+    },
+    "n_cas": 40,
+    "n_codeurs": 6
+   }
+  }
+ }
+]

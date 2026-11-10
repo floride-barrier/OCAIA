@@ -1,0 +1,27 @@
+{
+ "title": "OCAIA — Observatoire des conduites d'agents IA (AI Agent Conduct Observatory)",
+ "upload_type": "dataset",
+ "version": "1.6",
+ "publication_date": "2026-11-10",
+ "creators": [
+  {
+   "name": "Barrier, Floride",
+   "affiliation": "Chercheuse indépendante",
+   "orcid": "0009-0000-6358-8962"
+  }
+ ],
+ "description": "<p>Registre codé de 715 conduites d'agents et de modèles d'IA documentées publiquement, avec livre de codes public, fiabilité inter-codeurs mesurée, hypothèses réfutables à critères d'abandon datés et cas négatifs conservés. Champs en français et en anglais.</p><p>Coded register of 715 publicly documented conducts of AI agents and models, with a public codebook, measured inter-coder reliability, falsifiable hypotheses with dated abandonment criteria, and retained negative cases. Bilingual French/English.</p>",
+ "license": "cc-by-4.0",
+ "access_right": "open",
+ "language": "fra",
+ "keywords": [
+  "AI agents",
+  "AI safety",
+  "incident database",
+  "agent conduct",
+  "inter-coder reliability",
+  "agents d'IA",
+  "sécurité de l'IA"
+ ],
+ "notes": "Codes provisoires : codage initial par un modèle de langage (Claude, Anthropic) sous la direction de l'autrice, échantillons recodés à l'aveugle par six modèles d'autres laboratoires. Voir METHODE.md."
+}

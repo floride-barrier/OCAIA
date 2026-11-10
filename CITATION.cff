@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce jeu de données, merci de le citer comme ci-dessous."
+title: "OCAIA — Observatoire des conduites d'agents IA"
+type: dataset
+version: "1.6"
+date-released: "2026-11-10"
+license: CC-BY-4.0
+authors:
+  - family-names: Barrier
+    given-names: Floride
+    affiliation: "Chercheuse indépendante"
+    orcid: "https://orcid.org/0009-0000-6358-8962"
+keywords:
+  - "AI agents"
+  - "AI safety"
+  - "incident database"
+  - "agent conduct"
+  - "inter-coder reliability"
+  - "agents d'IA"

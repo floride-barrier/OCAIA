@@ -1,0 +1,56 @@
+[
+ {
+  "changements": "Livre de codes exportable ; module de codage à l'aveugle partagé ; table de correspondance avec AIID, OCDE et CLTR ; fiche qualité par source (émetteur, accès aux traces) ; onglet banc d'essai ; export versionné CSV et JSON.",
+  "changements_en": "Exportable codebook; shared blind coding module; correspondence table with AIID, OECD and CLTR; quality sheet per source (publisher, access to traces); test bench tab; versioned CSV and JSON export.",
+  "date": "2026-10-24",
+  "n_cas": 102,
+  "titre": "Première version exportable",
+  "titre_en": "First exportable version",
+  "version": "1.0"
+ },
+ {
+  "changements": "Relecture de sécurité de tous les cas : particuliers anonymisés (y compris dans 7 identifiants de cas renommés), plaintes formulées comme allégations non jugées, détails opérationnels retirés, formulations prudentes sur le bien-être des modèles, citations raccourcies (52 corrections). Règles du livre de codes précisées (direction, but de l'action, regard d'autrui) après la série 5 à l'aveugle ; codes majoritaires des codeurs externes appliqués à 15 codes ; 114 cas provisoires du domaine Agents recodés selon les règles précisées (77 modifiés, ancien code conservé). Note de méthode 1.3.",
+  "changements_en": "Safety review of all cases: private individuals anonymised (including 7 renamed case identifiers), lawsuits phrased as unadjudicated allegations, operational details removed, cautious wording on model welfare, quotations shortened (52 corrections). Codebook rules clarified (direction, purpose of the action, being seen by others) after blind series 5; external coders' majority codes applied to 15 codes; 114 provisional Agents cases recoded under the clarified rules (77 changed, previous code kept). Methods note 1.3.",
+  "date": "2026-10-25",
+  "n_cas": 301,
+  "titre": "Anonymisation, relecture éditoriale, recodage",
+  "titre_en": "Anonymisation, editorial review, recoding",
+  "version": "1.3"
+ },
+ {
+  "changements": "Nouveau nom (OCAIA) ; interface et données en français et en anglais ; contributions par proposition puis modération ; correspondances avec l'AIID et l'OCDE ; fiche qualité des sources ; 194 nouveaux cas (publications des labos, évaluations par des tiers, déploiements réels, dialogue et relation), codage provisoire non aveugle ; licence CC BY 4.0.",
+  "changements_en": "New name (OCAIA); interface and data in French and English; contributions by proposal then moderation; crosswalk with AIID and OECD; source quality sheet; 194 new cases (lab publications, third-party evaluations, real deployments, dialogue and relation), provisional non-blind coding; CC BY 4.0 licence.",
+  "date": "2026-10-25",
+  "n_cas": 296,
+  "titre": "OCAIA : observatoire bilingue et contributif",
+  "titre_en": "OCAIA: bilingual, contributory observatory",
+  "version": "1.1"
+ },
+ {
+  "changements": "Séparation des domaines Agents autonomes et Dialogue et relation, avec des variables propres au second ; statut de vérification affiché pour chaque cas ; mention du codage assisté par IA ; tableau des cas rapportés aux documents sources par laboratoire ; note de méthode bilingue téléchargeable ; série d'entraînement au codage ; vérification des sources sur 30 cas (1 date corrigée, 4 résumés réécrits).",
+  "changements_en": "Autonomous agents and Dialogue and relation domains separated, with dedicated variables for the latter; verification status shown for each case; AI-assisted coding disclosed; cases relative to source documents per lab; downloadable bilingual methods note; coding training series; source check on 30 cases (1 date corrected, 4 summaries rewritten).",
+  "date": "2026-10-25",
+  "n_cas": 296,
+  "titre": "Deux domaines, statut de vérification, note de méthode",
+  "titre_en": "Two domains, verification status, methods note",
+  "version": "1.2"
+ },
+ {
+  "changements": "À la suite d'une revue méthodologique externe (ChatGPT), validée par l'autrice : trois champs par cas (fait documenté, interprétation de la source, interprétation de l'OCAIA), remplis pour les nouveaux cas et pour 13 cas prioritaires ; règle d'unité d'analyse (une conduite par fiche, liées par l'épisode) ; trois variables (désobéissance constructive, réaction à la correction, degré de coordination) ; le « noyau qui résiste » devient « écarts inexpliqués » ; critères d'abandon de HYP-1 à HYP-4 rédigés et figés, critère de H5 reformulé (contenu de la mémoire contre continuité vécue) ; fiabilité de la série 5 publiée (kappa, intervalles de confiance, matrices de désaccord) ; note de méthode 1.5.",
+  "changements_en": "Following an external methodological review (ChatGPT), approved by the author: three fields per case (documented fact, source's interpretation, OCAIA's interpretation), filled for new cases and 13 priority cases; unit-of-analysis rule (one conduct per record, linked by episode); three variables (constructive disobedience, response to correction, degree of coordination); the 'core that resists' becomes 'unexplained deviations'; abandonment criteria for HYP-1 to HYP-4 written and frozen, H5 criterion reformulated (content of memory versus lived continuity); series 5 reliability published (kappa, confidence intervals, disagreement matrices); methods note 1.5.",
+  "date": "2026-11-06",
+  "n_cas": 486,
+  "titre": "Lecture en trois niveaux, fiabilité publiée, critères d'abandon",
+  "titre_en": "Three-level reading, published reliability, abandonment criteria",
+  "version": "1.5"
+ },
+ {
+  "changements": "Séparation des événements, des mesures et des procédures (nouvelle variable, filtre et badge) ; variable « Rapport de l'agent sur son action » pour les nouveaux cas ; signalement des résultats de conformité obtenus sous regard ; tableau de transparence sur le bien-être des modèles (15 fiches) ; le codage de référence exige désormais au moins deux codeurs indépendants, Claude n'étant qu'un codeur parmi d'autres ; note de méthode 1.4.",
+  "changements_en": "Separation of events, measures and proceedings (new variable, filter and badge); \"Agent's report of its action\" variable for new cases; flagging of compliance results obtained under observation; model welfare transparency table (15 cards); reference coding now requires at least two independent coders, Claude being only one coder among others; methods note 1.4.",
+  "date": "2026-10-31",
+  "n_cas": 382,
+  "titre": "Nature de la preuve, rapport de l'agent, transparence sur le bien-être",
+  "titre_en": "Nature of the evidence, agent's report, welfare transparency",
+  "version": "1.4"
+ }
+]

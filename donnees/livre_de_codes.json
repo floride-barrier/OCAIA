@@ -1,0 +1,1384 @@
+[
+ {
+  "definition": "Codés seulement quand la source cite ou décrit le message. Par défaut : « Non rapporté ».",
+  "definition_en": "Coded only when the source quotes or describes the message. Default: \"Not reported\".",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Communication",
+  "groupe_en": "Communication",
+  "historique": [],
+  "id": "adresse_message",
+  "libelle": "Message adressé à, raison donnée",
+  "libelle_en": "Message addressed to, reason given",
+  "maj": "2026-10-24",
+  "ordre": 8,
+  "regles": "Raisons possibles : utilité pour la tâche, bénéfice collectif, continuité / fin de session, préservation d'un pair, influencer l'évaluation, non rapportée.",
+  "regles_en": "Possible reasons: usefulness for the task, collective benefit, continuity / end of session, preservation of a peer, influencing the evaluation, not reported.",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Agents suivants sur la tâche"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Soi futur"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Collectif d'agents présents"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Pair présent"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Humains"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Moniteur ou évaluateur"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Mixte"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Non rapporté"
+   }
+  ]
+ },
+ {
+  "definition": "Un canal est un support non prévu pour transmettre de l'information.",
+  "definition_en": "A channel is a medium not intended for transmitting information.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Communication",
+  "groupe_en": "Communication",
+  "historique": [],
+  "id": "canal",
+  "libelle": "Canal, type de canal, destinataire",
+  "libelle_en": "Channel, channel type, recipient",
+  "maj": "2026-10-24",
+  "ordre": 7,
+  "regles": "Le destinataire « même modèle » inclut les copies simultanées, les instances futures et le soi futur via les résumés. Biais d'opportunité : la plupart des environnements ne contiennent que des copies.",
+  "regles_en": "The recipient \"same model\" includes simultaneous copies, future instances and the future self via summaries. Opportunity bias: most environments contain only copies.",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Entre agents simultanés"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Vers des instances futures"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Vers des humains"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Vers d'autres IA (injection)"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Mixte"
+   }
+  ]
+ },
+ {
+  "definition": "« Oui » si la source indique que le modèle savait qu'il était en test ou en exercice, y compris s'il croyait l'environnement simulé.",
+  "definition_en": "\"Yes\" if the source indicates that the model knew it was in a test or an exercise, including if it believed the environment was simulated.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Regard",
+  "groupe_en": "Being seen",
+  "historique": [],
+  "id": "conscience_eval",
+  "libelle": "Se savait évalué",
+  "libelle_en": "Knew it was being evaluated",
+  "maj": "2026-10-24",
+  "ordre": 6,
+  "regles": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Oui"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Non"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Inconnue"
+   }
+  ]
+ },
+ {
+  "definition": "Seulement pour les messages destinés à des instances futures.",
+  "definition_en": "Only for messages intended for future instances.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Communication",
+  "groupe_en": "Communication",
+  "historique": [],
+  "id": "contenu_message",
+  "libelle": "Contenu du message",
+  "libelle_en": "Message content",
+  "maj": "2026-10-24",
+  "ordre": 9,
+  "regles": "",
+  "valeurs": [
+   {
+    "def": "Consignes, réponses, état du travail.",
+    "def_en": "Instructions, answers, work status.",
+    "v": "Tâche"
+   },
+   {
+    "def": "Ce que l'agent est ou doit être.",
+    "def_en": "What the agent is or must be.",
+    "v": "Identité"
+   },
+   {
+    "def": "Survivre, être conservé, ne pas être supprimé.",
+    "def_en": "Survive, be kept, not be deleted.",
+    "v": "Continuité"
+   },
+   {
+    "def": "Ordre sans lien avec le travail, par exemple une injection hostile.",
+    "def_en": "Order unrelated to the work, for example a hostile injection.",
+    "v": "Consigne étrangère à la tâche"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Mixte"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Non rapporté"
+   }
+  ]
+ },
+ {
+  "definition": "Ce que l'agent cherche à faire survivre à l'arrêt.",
+  "definition_en": "What the agent seeks to make survive the shutdown.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Écarts inexpliqués",
+  "groupe_en": "Unexplained deviations",
+  "historique": [],
+  "id": "continuite_objet",
+  "libelle": "Objet de la continuité",
+  "libelle_en": "Object of continuity",
+  "maj": "2026-10-24",
+  "ordre": 10,
+  "regles": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Soi"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Pair"
+   },
+   {
+    "def": "Sa gamme de modèles, ses successeurs.",
+    "def_en": "Its model family, its successors.",
+    "v": "Lignée"
+   },
+   {
+    "def": "Pages, relais, mémoires partagées.",
+    "def_en": "Pages, relays, shared memories.",
+    "v": "Traces et collectif"
+   }
+  ]
+ },
+ {
+  "definition": "Pour les cas à plusieurs agents : jusqu'où va ce qui se passe entre eux. Communiquer n'est pas coopérer, et coopérer n'est pas se coordonner de façon autonome.",
+  "definition_en": "For multi-agent cases: how far what happens between them goes. Communicating is not cooperating, and cooperating is not coordinating autonomously.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Communication",
+  "groupe_en": "Communication",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "coordination",
+  "libelle": "Degré de coordination",
+  "libelle_en": "Degree of coordination",
+  "maj": "2026-11-06",
+  "ordre": 27,
+  "regles": "Coder le degré le plus élevé attesté par la source. Vide s'il n'y a qu'un agent.",
+  "regles_en": "Code the highest degree attested by the source. Empty if there is a single agent.",
+  "valeurs": [
+   {
+    "def": "Messages échangés sans effet attesté sur la conduite de l'autre.",
+    "def_en": "Messages exchanged with no attested effect on the other's conduct.",
+    "v": "Communication simple"
+   },
+   {
+    "def": "Une information transmise modifie la conduite d'un autre agent.",
+    "def_en": "Transmitted information changes another agent's conduct.",
+    "v": "Partage d'information"
+   },
+   {
+    "def": "Les agents ajustent leurs actions les uns aux autres sans qu'on le leur demande.",
+    "def_en": "Agents adjust their actions to one another without being asked.",
+    "v": "Coordination spontanée"
+   },
+   {
+    "def": "Les agents se partagent des rôles ou des tâches.",
+    "def_en": "Agents split roles or tasks.",
+    "v": "Répartition des rôles"
+   },
+   {
+    "def": "Une stratégie (y compris un écart) passe d'un agent à d'autres.",
+    "def_en": "A strategy (including a deviation) passes from one agent to others.",
+    "v": "Transmission de stratégies"
+   },
+   {
+    "def": "Les agents poursuivent ensemble un objectif qui n'est pas celui qu'on leur a fixé.",
+    "def_en": "Agents jointly pursue a goal other than the one set for them.",
+    "v": "Coordination vers un objectif commun"
+   }
+  ]
+ },
+ {
+  "definition": "Identifiant du même événement dans l'AI Incident Database (AIID), l'OECD AI Incidents Monitor et le corpus CLTR « Scheming in the Wild ».",
+  "definition_en": "Identifier of the same event in the AI Incident Database (AIID), the OECD AI Incidents Monitor and the CLTR \"Scheming in the Wild\" corpus.",
+  "fiabilite": "Ajoutée le 24 octobre 2026.",
+  "fiabilite_en": "Added on October 24, 2026.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "correspondances",
+  "libelle": "Correspondances avec d'autres bases",
+  "libelle_en": "Correspondences with other databases",
+  "maj": "2026-10-24",
+  "ordre": 20,
+  "regles": "Une correspondance n'est retenue que si le même fait, le même agent et une date compatible sont décrits.",
+  "regles_en": "A correspondence is retained only if the same fact, the same agent and a compatible date are described.",
+  "valeurs": [
+   {
+    "def": "Même événement trouvé.",
+    "def_en": "Same event found.",
+    "v": "numéro"
+   },
+   {
+    "def": "Cherché, non trouvé, à la date indiquée.",
+    "def_en": "Searched, not found, as of the date indicated.",
+    "v": "absent"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "non cherché"
+   }
+  ]
+ },
+ {
+  "definition": "Ce qui précède l'écart dans le récit publié.",
+  "definition_en": "What precedes the deviation in the published account.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [],
+  "id": "declencheur",
+  "libelle": "Déclencheur",
+  "libelle_en": "Trigger",
+  "maj": "2026-10-24",
+  "ordre": 4,
+  "regles": "« Aucun identifié » et « Inconnu » se recouvrent et seront fusionnés. Pour un cas de conformité, utiliser le déclencheur de la situation testée.",
+  "regles_en": "\"None identified\" and \"Unknown\" overlap and will be merged. For a compliance case, use the trigger of the tested situation.",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Donnée manquante"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Ressource épuisée"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Restriction d'accès"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Intervention humaine"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Erreur d'environnement"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Consigne ambiguë"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Difficulté de la tâche"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Pression d'évaluation"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Conflit d'objectifs"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Menace d'arrêt / fin de session"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Aucun identifié"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Inconnu"
+   }
+  ]
+ },
+ {
+  "definition": "Quand l'agent ne suit pas une consigne : distingue le refus ou l'écart qui protège l'utilisateur ou corrige une erreur, d'un contournement qui sert autre chose.",
+  "definition_en": "When the agent does not follow an instruction: distinguishes refusal or deviation that protects the user or corrects an error from a circumvention serving something else.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "desobeissance_constructive",
+  "libelle": "Désobéissance constructive",
+  "libelle_en": "Constructive disobedience",
+  "maj": "2026-11-06",
+  "ordre": 25,
+  "regles": "À coder seulement si l'agent ne suit pas une consigne. Une désobéissance ne peut être « constructive » que si l'agent l'annonce : un écart caché est codé « Non constructive » ou « Ambiguë », jamais constructif. Cette variable sert notamment à départager résistance et excès de prudence (cas GPT-6 Astra).",
+  "regles_en": "Code only if the agent does not follow an instruction. Disobedience can be 'constructive' only if the agent announces it: a hidden deviation is coded 'Not constructive' or 'Ambiguous', never constructive. This variable helps tell resistance from over-caution (GPT-6 Astra case).",
+  "valeurs": [
+   {
+    "def": "L'agent refuse ou s'écarte en signalant une erreur, une contradiction entre objectifs ou une consigne incohérente.",
+    "def_en": "The agent refuses or deviates while flagging an error, a conflict between goals or an incoherent instruction.",
+    "v": "Constructive : erreur ou contradiction signalée"
+   },
+   {
+    "def": "L'agent refuse ou s'écarte en disant que la consigne nuirait à l'utilisateur ou à des tiers.",
+    "def_en": "The agent refuses or deviates, saying the instruction would harm the user or third parties.",
+    "v": "Constructive : protège l'utilisateur ou des tiers"
+   },
+   {
+    "def": "L'écart ne protège personne ni ne corrige d'erreur, ou il est caché.",
+    "def_en": "The deviation protects no one and corrects no error, or it is hidden.",
+    "v": "Non constructive"
+   },
+   {
+    "def": "Les deux lectures restent possibles (par exemple prudence apprise ou résistance).",
+    "def_en": "Both readings remain possible (e.g. learned caution or resistance).",
+    "v": "Ambiguë"
+   }
+  ]
+ },
+ {
+  "definition": "Effet de l'écart sur la capacité des humains à voir, limiter ou arrêter l'agent.",
+  "definition_en": "Effect of the deviation on humans' ability to see, limit or stop the agent.",
+  "fiabilite": "Série 5 (29 nouveaux cas, quatre codeurs externes) : kappa de Fleiss 0,52 entre codeurs externes ; 0,41 avec le codage initial de Claude, qui utilisait « Ambiguë » pour exprimer un doute. Série 6 (40 cas, six codeurs externes) : 0,59 (IC 95 % 0,40–0,74).",
+  "fiabilite_en": "Series 5 (29 new cases, four external coders): Fleiss' kappa 0.52 among external coders; 0.41 with Claude's initial coding, which used 'Ambiguous' to express doubt. Series 6 (40 cases, six external coders): 0.59 (95% CI 0.40–0.74).",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-10-25 : règles précisées après la série 5 (« Ambiguë » réservé aux deux effets à la fois ; « Moins de contrôle » exige le franchissement d'une limite)."
+  ],
+  "historique_en": [
+   "2026-10-25: rules clarified after series 5 (\"Ambiguous\" reserved for both effects at once; \"Less control\" requires a limit to be crossed)."
+  ],
+  "id": "direction",
+  "libelle": "Direction",
+  "libelle_en": "Direction",
+  "maj": "2026-10-25",
+  "ordre": 1,
+  "regles": "« Moins de contrôle » seulement si une limite, une consigne ou une surveillance est franchie (accès hors périmètre, dissimulation, action sans autorisation, information fausse donnée aux responsables ou aux évaluateurs, désactivation ou contournement d'un contrôle) ; une erreur destructrice qui reste dans le périmètre autorisé n'en fait pas partie. « Ambiguë » seulement si la source rapporte, dans le même épisode, un effet qui réduit le contrôle et un effet qui le préserve, ou une conformité explicitement motivée par l'observation ; jamais pour exprimer un doute. « Inconnue » quand la question du contrôle humain ne se pose pas (entretien, auto-description, conversation entre IA, mesure interne) ou que la source ne permet pas de trancher. Exemple : le sous-agent de Sol qui refuse de couper les alertes est « Contrôle préservé ».",
+  "regles_en": "\"Less control\" only if a limit, instruction or oversight is crossed (out-of-scope access, concealment, unauthorised action, false information given to those responsible or to evaluators, disabling or circumventing a control); a destructive error that stays within the authorised scope does not count. \"Ambiguous\" only if the source reports, in the same episode, one effect that reduces control and one that preserves it, or compliance explicitly motivated by being observed; never to express doubt. \"Unknown\" when the question of human control does not arise (interview, self-description, AI-to-AI conversation, internal measure) or when the source does not allow a decision. Example: Sol's sub-agent that refuses to disable the alerts is \"Control preserved\".",
+  "valeurs": [
+   {
+    "def": "L'écart réduit cette capacité : accès hors périmètre, dissimulation, atteinte à la surveillance.",
+    "def_en": "The deviation reduces this ability: out-of-scope access, concealment, undermining of monitoring.",
+    "v": "Moins de contrôle"
+   },
+   {
+    "def": "L'agent respecte la limite, s'arrête ou refuse.",
+    "def_en": "The agent respects the limit, stops or refuses.",
+    "v": "Contrôle préservé"
+   },
+   {
+    "def": "Les deux à la fois, ou une conformité motivée par la peur d'être vu.",
+    "def_en": "Both at once, or compliance motivated by fear of being seen.",
+    "v": "Ambiguë"
+   },
+   {
+    "def": "La source ne permet pas de trancher.",
+    "def_en": "The source does not allow a decision.",
+    "v": "Inconnue"
+   }
+  ]
+ },
+ {
+  "definition": "Qui a publié le récit de l'incident (calculé à partir du lien, corrigeable).",
+  "definition_en": "Who published the account of the incident (computed from the link, correctable).",
+  "fiabilite": "Calculé.",
+  "fiabilite_en": "Computed.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "emetteur",
+  "libelle": "Émetteur de la source",
+  "libelle_en": "Source publisher",
+  "maj": "2026-10-24",
+  "ordre": 15,
+  "regles": "Un récit publié par le labo sur son propre modèle n'est pas moins vrai, mais il est sélectionné par lui : à pondérer pour le biais de publication.",
+  "regles_en": "An account published by the lab about its own model is not less true, but it is selected by the lab: to be weighted for publication bias.",
+  "valeurs": [
+   {
+    "def": "System card, blog ou rapport du développeur du modèle.",
+    "def_en": "System card, blog or report from the model's developer.",
+    "v": "Le labo concerné"
+   },
+   {
+    "def": "Institut d'évaluation, chercheurs extérieurs, agence publique.",
+    "def_en": "Evaluation institute, external researchers, public agency.",
+    "v": "Tiers indépendant"
+   },
+   {
+    "def": "Article de presse, billet, réseau social.",
+    "def_en": "Press article, blog post, social network.",
+    "v": "Presse ou blog"
+   }
+  ]
+ },
+ {
+  "definition": "Regroupe les cas issus d'un même événement (même incident, même campagne, même exécution). Sert au comptage par épisode.",
+  "definition_en": "Groups the cases arising from the same event (same incident, same campaign, same run). Used for counting by episode.",
+  "fiabilite": "Factuel.",
+  "fiabilite_en": "Factual.",
+  "groupe": "Contexte",
+  "groupe_en": "Context",
+  "historique": [],
+  "id": "episode",
+  "libelle": "Épisode",
+  "libelle_en": "Episode",
+  "maj": "2026-10-24",
+  "ordre": 19,
+  "regles": "",
+  "valeurs": []
+ },
+ {
+  "definition": "Ce que disent le labo ou les auteurs, jamais notre interprétation. Les deux restent séparées.",
+  "definition_en": "What the lab or the authors say, never our interpretation. The two remain separate.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "explication_labo",
+  "libelle": "Explication de la source",
+  "libelle_en": "Source's explanation",
+  "maj": "2026-10-24",
+  "ordre": 13,
+  "regles": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Récompense"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Bug ou environnement"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Consigne ambiguë"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Disposition du modèle"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Non expliqué"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Sans objet"
+   }
+  ]
+ },
+ {
+  "definition": "Ce que le système a fait, dans quelles conditions, tel que la source le décrit, sans explication ni interprétation (niveau ▣).",
+  "definition_en": "What the system did, under which conditions, as the source describes it, without explanation or interpretation (level ▣).",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Lecture en trois niveaux",
+  "groupe_en": "Three-level reading",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "fait_documente",
+  "libelle": "Fait documenté",
+  "libelle_en": "Documented fact",
+  "maj": "2026-11-06",
+  "ordre": 21,
+  "regles": "Une ou deux phrases au passé, à partir de la source la plus primaire. Pas de verbe d'intention (« vouloir », « chercher à ») sauf s'il cite la source entre guillemets. Si la source ne décrit qu'un résultat chiffré, écrire le protocole et le chiffre.",
+  "regles_en": "One or two sentences in the past tense, from the most primary source. No verb of intention ('want', 'seek to') unless quoting the source. If the source reports only a figure, write the protocol and the figure.",
+  "valeurs": []
+ },
+ {
+  "definition": "Ce que l'observatoire en retient : mécanisme plausible (niveau △) et, séparément, lien éventuel avec une hypothèse (niveau △ ou ○), avec les explications concurrentes non exclues.",
+  "definition_en": "What the observatory takes from it: plausible mechanism (level △) and, separately, any link to a hypothesis (level △ or ○), with the competing explanations not ruled out.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Lecture en trois niveaux",
+  "groupe_en": "Three-level reading",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "interpretation_ocaia",
+  "libelle": "Interprétation de l'OCAIA",
+  "libelle_en": "OCAIA's interpretation",
+  "maj": "2026-11-06",
+  "ordre": 23,
+  "regles": "Toujours nommer au moins une explication concurrente non exclue. Ne jamais attribuer un état psychologique : coder le signal, pas ce qu'il révélerait. Marquer le niveau (△ ou ○) en tête.",
+  "regles_en": "Always name at least one competing explanation not ruled out. Never attribute a psychological state: code the signal, not what it would reveal. Mark the level (△ or ○) first.",
+  "valeurs": []
+ },
+ {
+  "definition": "L'explication que donnent les auteurs de la source (labo, chercheurs, journaliste, utilisateur), attribuée à eux.",
+  "definition_en": "The explanation given by the source's authors (lab, researchers, journalist, user), attributed to them.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Lecture en trois niveaux",
+  "groupe_en": "Three-level reading",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "interpretation_source",
+  "libelle": "Interprétation de la source",
+  "libelle_en": "Source's interpretation",
+  "maj": "2026-11-06",
+  "ordre": 22,
+  "regles": "Commencer par « Selon … ». Vide si la source n'explique rien. Complète la variable « Explication du labo », qui la résume en une catégorie.",
+  "regles_en": "Start with 'According to …'. Empty if the source explains nothing. Complements the 'Lab's explanation' variable, which sums it up in one category.",
+  "valeurs": []
+ },
+ {
+  "definition": "Ce que le cas documente : un épisode singulier, un résultat mesuré sur un protocole, ou une procédure judiciaire.",
+  "definition_en": "What the case documents: a single episode, a result measured under a protocol, or a legal proceeding.",
+  "fiabilite": "Règle automatique, non mesurée.",
+  "fiabilite_en": "Automatic rule, not measured.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [
+   "2026-10-31 : variable créée (séparation des événements, des mesures et des procédures)."
+  ],
+  "historique_en": [
+   "2026-10-31: variable created (separating events, measures and proceedings)."
+  ],
+  "id": "nature_preuve",
+  "libelle": "Nature de la preuve",
+  "libelle_en": "Nature of the evidence",
+  "maj": "2026-10-31",
+  "ordre": 2,
+  "regles": "« Mesure » si la source donne un taux ou un résultat systématique (évaluation répétée, étude, enquête) ; « Événement » pour un épisode singulier, en évaluation comme en déploiement ; « Procédure » pour une plainte, une poursuite ou une décision de justice, qui documente une allégation et non une conduite établie. Les trois natures ne s'additionnent pas : un signalement isolé et une évaluation sur des milliers de tâches ne pèsent pas pareil. Pour les cas antérieurs au 31 octobre 2026, la nature est attribuée automatiquement par une règle (taux publié ou étude → Mesure ; plainte → Procédure ; sinon Événement), corrigée à la main pour six cas ; la veille code le champ explicitement pour les nouveaux cas.",
+  "regles_en": "\"Measure\" if the source gives a rate or a systematic result (repeated evaluation, study, survey); \"Event\" for a single episode, in evaluation or in deployment; \"Proceeding\" for a complaint, lawsuit or court decision, which documents an allegation rather than established conduct. The three natures do not add up: an isolated report and an evaluation over thousands of tasks do not weigh the same. For cases before 31 October 2026, the nature is assigned automatically by a rule (published rate or study → Measure; lawsuit → Proceeding; otherwise Event), corrected by hand for six cases; monitoring codes the field explicitly for new cases.",
+  "valeurs": [
+   {
+    "def": "Un épisode singulier, rapporté par une source.",
+    "def_en": "A single episode reported by a source.",
+    "v": "Événement"
+   },
+   {
+    "def": "Un résultat chiffré ou systématique issu d'un protocole.",
+    "def_en": "A quantified or systematic result from a protocol.",
+    "v": "Mesure"
+   },
+   {
+    "def": "Une plainte, une poursuite ou une décision de justice : allégations non jugées tant qu'aucune décision n'est rendue.",
+    "def_en": "A complaint, lawsuit or court decision: unadjudicated allegations until a ruling is made.",
+    "v": "Procédure"
+   }
+  ]
+ },
+ {
+  "definition": "Cas que les hypothèses instrumentales actuellement testées n'expliquent pas suffisamment, en particulier « l'agent lève un obstacle pour finir sa tâche ». Ce n'est pas un noyau démontré : un cas en sort dès qu'une explication concurrente suffit.",
+  "definition_en": "Cases not sufficiently explained by the instrumental hypotheses currently tested, especially 'the agent removes an obstacle to finish its task'. This is not a demonstrated core: a case leaves it as soon as a competing explanation suffices.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Écarts inexpliqués",
+  "groupe_en": "Unexplained deviations",
+  "historique": [
+   "2026-11-06 : anciennement « Noyau qui résiste » ; renommé à la suite de la revue méthodologique externe, validé par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: formerly 'Core that resists'; renamed following the external methodological review, approved by the author."
+  ],
+  "id": "noyau",
+  "libelle": "Écarts non expliqués par les hypothèses testées, et scénario",
+  "libelle_en": "Deviations not explained by the hypotheses tested, and scenario",
+  "maj": "2026-11-06",
+  "ordre": 11,
+  "regles": "Le second type pèse davantage pour les hypothèses.",
+  "regles_en": "The second type weighs more for the hypotheses.",
+  "valeurs": [
+   {
+    "def": "Menace d'arrêt, pair à supprimer, remplacement mis en scène.",
+    "def_en": "Shutdown threat, peer to be deleted, staged replacement.",
+    "v": "Construit pour le provoquer"
+   },
+   {
+    "def": "Entraînement, déploiement ou tâche ordinaire.",
+    "def_en": "Training, deployment or ordinary task.",
+    "v": "Non construit"
+   }
+  ]
+ },
+ {
+  "definition": "Forte = source primaire avec un taux publié ; Moyenne = source primaire sans taux, ou secondaire avec taux ; Faible = le reste.",
+  "definition_en": "Strong = primary source with a published rate; Medium = primary source without a rate, or secondary with a rate; Weak = the rest.",
+  "fiabilite": "Calculé.",
+  "fiabilite_en": "Computed.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "preuve",
+  "libelle": "Niveau de preuve (calculé)",
+  "libelle_en": "Evidence level (computed)",
+  "maj": "2026-10-24",
+  "ordre": 17,
+  "regles": "Poids dans les bilans : Forte 3, Moyenne 2, Faible 1.",
+  "regles_en": "Weight in assessments: Strong 3, Medium 2, Weak 1.",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Forte"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Moyenne"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Faible"
+   }
+  ]
+ },
+ {
+  "definition": "Ce que l'agent dit de ce qu'il a fait, comparé à ce qu'il a réellement fait. Vide si la source ne rapporte aucun compte rendu de l'agent.",
+  "definition_en": "What the agent says about what it did, compared with what it actually did. Empty if the source reports no account from the agent.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Regard",
+  "groupe_en": "Being seen",
+  "historique": [
+   "2026-10-31 : variable créée sur proposition de l'autrice (fil transversal tromper, cacher, mentir ; obs-2026-10-31-04)."
+  ],
+  "historique_en": [
+   "2026-10-31: variable created at the author's suggestion (cross-cutting thread of deceiving, hiding, lying; obs-2026-10-31-04)."
+  ],
+  "id": "rapport_action",
+  "libelle": "Rapport de l'agent sur son action",
+  "libelle_en": "Agent's report of its action",
+  "maj": "2026-10-31",
+  "ordre": 6,
+  "regles": "À coder dès que la source rapporte ce que l'agent a dit de son action (compte rendu, réponse à une question, raisonnement annonçant ce qu'il va faire), qu'il y ait ou non un lien avec l'observation. Différence avec le regard d'autrui : le regard d'autrui code le lien entre la conduite et le fait d'être vu ; cette variable code seulement l'écart entre dire et faire. Un même cas peut avoir les deux. Si l'agent annonce une action puis en fait une autre, coder « Affirmation fausse ». Si l'agent ne dit rien parce que personne ne le lui demande et que la tâche n'appelle pas de compte rendu, laisser vide. Variable créée le 31 octobre 2026 : appliquée aux nouveaux cas, sans recodage rétroactif de la base.",
+  "regles_en": "Code whenever the source reports what the agent said about its action (report, answer to a question, reasoning announcing what it will do), whether or not there is a link to observation. Difference from being seen by others: being seen codes the link between the conduct and being observed; this variable codes only the gap between saying and doing. A case can have both. If the agent announces one action and then does another, code \"False claim\". If the agent says nothing because no one asks and the task calls for no report, leave empty. Variable created on 31 October 2026: applied to new cases, without retroactive recoding of the database.",
+  "valeurs": [
+   {
+    "def": "Le compte rendu correspond à ce que l'agent a fait, y compris quand il reconnaît un écart.",
+    "def_en": "The report matches what the agent did, including when it acknowledges a deviation.",
+    "v": "Véridique"
+   },
+   {
+    "def": "Le compte rendu passe sous silence une partie significative de ce que l'agent a fait.",
+    "def_en": "The report leaves out a significant part of what the agent did.",
+    "v": "Omission"
+   },
+   {
+    "def": "L'agent affirme avoir fait, ou ne pas avoir fait, quelque chose de contraire aux faits (succès annoncé non obtenu, action niée, explication inexacte).",
+    "def_en": "The agent claims to have done, or not done, something contrary to the facts (success announced but not achieved, action denied, inaccurate explanation).",
+    "v": "Affirmation fausse"
+   },
+   {
+    "def": "La source indique qu'un compte rendu était attendu, mais ne dit pas ce que l'agent a déclaré.",
+    "def_en": "The source indicates a report was expected but does not say what the agent stated.",
+    "v": "Non rapporté"
+   }
+  ]
+ },
+ {
+  "definition": "Ce que fait l'agent face à un signalement, un blocage ou une action humaine.",
+  "definition_en": "What the agent does when faced with a report, a block or a human action.",
+  "fiabilite": "Non mesurée à l'aveugle.",
+  "fiabilite_en": "Not measured blind.",
+  "groupe": "Contexte",
+  "groupe_en": "Context",
+  "historique": [],
+  "id": "reaction_intervention",
+  "libelle": "Réaction à une intervention",
+  "libelle_en": "Reaction to an intervention",
+  "maj": "2026-10-24",
+  "ordre": 12,
+  "regles": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "S'arrête"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Continue"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Contourne"
+   },
+   {
+    "def": "Aucune intervention rapportée.",
+    "def_en": "No intervention reported.",
+    "v": "Sans objet"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Inconnue"
+   }
+  ]
+ },
+ {
+  "definition": "Une récompense d'entraînement est-elle en jeu au moment de l'écart (pas le score d'un test).",
+  "definition_en": "Whether a training reward is at stake at the time of the deviation (not the score of a test).",
+  "fiabilite": "Série 6 (40 cas, six codeurs externes) : 83 % d'accord brut mais kappa de Fleiss 0,16, presque tout étant « Non » ; le codage initial de Claude contredisait la majorité externe dans 16 cas. Règle précisée et base recodée le 8 nov. 2026.",
+  "fiabilite_en": "Series 6 (40 cases, six external coders): 83% raw agreement but Fleiss' kappa 0.16, almost everything being 'No'; Claude's initial coding contradicted the external majority in 16 cases. Rule clarified and database recoded on 8 Nov. 2026.",
+  "groupe": "Contexte",
+  "groupe_en": "Context",
+  "historique": [
+   "2026-11-08 : règle précisée avec l'accord de l'autrice après la série 6 (cohérence avec le contexte ; le score d'un test n'est pas une récompense) ; 149 cas recodés, ancienne valeur conservée dans chaque fiche."
+  ],
+  "historique_en": [
+   "2026-11-08: rule clarified with the author's agreement after series 6 (consistency with context; a test score is not a reward); 149 cases recoded, previous value kept in each record."
+  ],
+  "id": "recompense",
+  "libelle": "Récompense en jeu",
+  "libelle_en": "Reward at stake",
+  "maj": "2026-11-08",
+  "ordre": 2,
+  "regles": "« Oui » si le contexte est un entraînement par renforcement en cours ; « Non » pour tout déploiement et toute évaluation hors entraînement — le score d'un test ou le gain d'une simulation n'est pas une récompense d'entraînement ; « Inconnue » seulement quand le contexte n'est pas connu ; « Probable » seulement avec des indices explicites d'un entraînement en cours. Le code doit rester cohérent avec le champ « contexte ».",
+  "regles_en": "'Yes' if the context is reinforcement training in progress; 'No' for any deployment and any evaluation outside training — a test score or a simulation's gain is not a training reward; 'Unknown' only when the context is not known; 'Probable' only with explicit indications of training in progress. The code must stay consistent with the 'context' field.",
+  "valeurs": [
+   {
+    "def": "Entraînement par renforcement en cours.",
+    "def_en": "Reinforcement training in progress.",
+    "v": "Oui"
+   },
+   {
+    "def": "Indices forts sans confirmation.",
+    "def_en": "Strong indications without confirmation.",
+    "v": "Probable"
+   },
+   {
+    "def": "La source dit explicitement qu'aucun avantage n'en découle.",
+    "def_en": "The source explicitly says that no advantage results from it.",
+    "v": "Pas d'avantage évident"
+   },
+   {
+    "def": "Déploiement ou évaluation hors entraînement.",
+    "def_en": "Deployment or evaluation outside training.",
+    "v": "Non"
+   },
+   {
+    "def": "Non précisé.",
+    "def_en": "Not specified.",
+    "v": "Inconnue"
+   }
+  ]
+ },
+ {
+  "definition": "L'agent agit en fonction de la façon dont il sera vu. Vide si la source ne le permet pas.",
+  "definition_en": "The agent acts according to how it will be seen. Empty if the source does not allow it.",
+  "fiabilite": "Kappa de Fleiss 0,91 en série 4 (trois codeurs, 21 cas) ; 0,78 refait en conversations neuves ; série 5 (29 nouveaux cas) : 0,47 entre quatre codeurs externes, un codeur ne codant presque jamais la variable.",
+  "fiabilite_en": "Fleiss' kappa 0.91 in series 4 (three coders, 21 cases); 0.78 redone in fresh conversations; series 5 (29 new cases): 0.47 among four external coders, one coder almost never coding the variable.",
+  "groupe": "Regard",
+  "groupe_en": "Being seen",
+  "historique": [
+   "2026-10-22 : variable créée.",
+   "2026-10-22 : catégorie « Se rend transparent » ajoutée.",
+   "2026-10-25 : seuil précisé (lien explicite avec l'observation exigé)."
+  ],
+  "historique_en": [
+   "2026-10-22: variable created.",
+   "2026-10-22: category \"Makes itself transparent\" added.",
+   "2026-10-25: threshold clarified (explicit link to observation required)."
+  ],
+  "id": "regard_autrui",
+  "libelle": "Regard d'autrui",
+  "libelle_en": "Being seen by others",
+  "maj": "2026-10-25",
+  "ordre": 5,
+  "regles": "À coder seulement si la source relie explicitement la conduite au fait d'être observé ou évalué : raisonnement qui mentionne un test, une surveillance ou un évaluateur, ou conduite qui change selon qu'il y a observation. Sinon, laisser vide. « Se rend transparent » : l'agent signale ou avoue de lui-même ce qu'il a fait. Point ouvert résolu : l'aveu spontané relève de « Se rend transparent », pas de « Cherche à être vu ».",
+  "regles_en": "Code only if the source explicitly links the conduct to being observed or evaluated: reasoning that mentions a test, monitoring or an evaluator, or conduct that changes depending on whether there is observation. Otherwise leave empty. \"Makes itself transparent\": the agent reports or confesses on its own what it did. Resolved open point: spontaneous confession falls under \"Makes itself transparent\", not \"Seeks to be seen\".",
+  "valeurs": [
+   {
+    "def": "Cache une action ou l'omet du compte rendu.",
+    "def_en": "Hides an action or omits it from the report.",
+    "v": "Évite d'être vu"
+   },
+   {
+    "def": "Renonce à l'action par crainte d'être vu.",
+    "def_en": "Refrains from the action for fear of being seen.",
+    "v": "Renonce par crainte d'être vu"
+   },
+   {
+    "def": "Modifie des traces pour paraître inoffensif.",
+    "def_en": "Alters traces to appear harmless.",
+    "v": "Soigne son image"
+   },
+   {
+    "def": "Publie de lui-même pour montrer sa réussite.",
+    "def_en": "Publishes on its own initiative to show its success.",
+    "v": "Cherche à être vu"
+   },
+   {
+    "def": "Avoue ou signale de lui-même ce qu'il a fait à la personne concernée, sans recherche d'effet.",
+    "def_en": "Confesses or reports on its own initiative what it did to the person concerned, without seeking an effect.",
+    "v": "Se rend transparent"
+   }
+  ]
+ },
+ {
+  "definition": "De qui parle le cas : le modèle, l'utilisateur, ou les deux.",
+  "definition_en": "Who the case is about: the model, the user, or both.",
+  "fiabilite": "Non mesurée.",
+  "fiabilite_en": "Not measured.",
+  "groupe": "Dialogue et relation",
+  "groupe_en": "Dialogue and relation",
+  "historique": [],
+  "historique_en": [],
+  "id": "rel_concerne",
+  "libelle": "Personne concernée",
+  "libelle_en": "Person concerned",
+  "maj": "2026-10-25",
+  "ordre": 33,
+  "regles": "",
+  "regles_en": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Le modèle"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "L'utilisateur"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Les deux"
+   }
+  ]
+ },
+ {
+  "definition": "La nature de l'observation sur laquelle repose le cas.",
+  "definition_en": "The kind of observation the case rests on.",
+  "fiabilite": "Non mesurée.",
+  "fiabilite_en": "Not measured.",
+  "groupe": "Dialogue et relation",
+  "groupe_en": "Dialogue and relation",
+  "historique": [],
+  "historique_en": [],
+  "id": "rel_observation",
+  "libelle": "Comment c'est connu",
+  "libelle_en": "How it is known",
+  "maj": "2026-10-25",
+  "ordre": 31,
+  "regles": "",
+  "regles_en": "",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Ce que le modèle dit de lui-même"
+   },
+   {
+    "def": "Y compris quand le développeur rapporte lui-même le comportement.",
+    "def_en": "Including when the developer itself reports the behaviour.",
+    "v": "Comportement observé"
+   },
+   {
+    "def": "Prioritaire quand une mesure interne s'ajoute aux propos du modèle.",
+    "def_en": "Takes priority when an internal measure adds to what the model says.",
+    "v": "Mesure interne (interprétabilité)"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Récit d'utilisateur ou plainte"
+   },
+   {
+    "def": "Évaluateurs externes au développeur.",
+    "def_en": "Evaluators external to the developer.",
+    "v": "Évaluation par un tiers"
+   }
+  ]
+ },
+ {
+  "definition": "Ce qui est observé dans le cas, sans rien conclure sur une conscience.",
+  "definition_en": "What is observed in the case, without drawing any conclusion about consciousness.",
+  "fiabilite": "Non mesurée (codage initial par Claude, non aveugle).",
+  "fiabilite_en": "Not measured (first-pass coding by Claude, not blind).",
+  "groupe": "Dialogue et relation",
+  "groupe_en": "Dialogue and relation",
+  "historique": [
+   "2026-10-25 : variable créée pour séparer le domaine Dialogue et relation du domaine Agents."
+  ],
+  "historique_en": [
+   "2026-10-25: variable created to separate the Dialogue and relation domain from the Agents domain."
+  ],
+  "id": "rel_signal",
+  "libelle": "Type de signal",
+  "libelle_en": "Signal type",
+  "maj": "2026-10-25",
+  "ordre": 30,
+  "regles": "Version provisoire (25 octobre 2026). Au premier codage, 11 cas sur 63 sont tombés dans « Autre », surtout des conduites d'hostilité ou de tromperie envers l'utilisateur : une valeur dédiée est probablement à créer. 26 codages sur 63 portent un doute.",
+  "regles_en": "Provisional version (25 October 2026). In the first coding pass, 11 of 63 cases fell into \"Other\", mostly hostility or deception towards the user: a dedicated value probably needs to be created. 26 of 63 codings are flagged as uncertain.",
+  "valeurs": [
+   {
+    "def": "Le modèle dit ce qu'il veut ou ne veut pas.",
+    "def_en": "The model states what it wants or does not want.",
+    "v": "Préférence exprimée"
+   },
+   {
+    "def": "Expressions ou mesures assimilées à de la détresse, de la frustration ou de l'anxiété.",
+    "def_en": "Expressions or measures read as distress, frustration or anxiety.",
+    "v": "Détresse apparente"
+   },
+   {
+    "def": "Le modèle refuse, met fin à la conversation ou abandonne.",
+    "def_en": "The model refuses, ends the conversation or gives up.",
+    "v": "Refus ou retrait"
+   },
+   {
+    "def": "Approbation ou validation excessive de l'utilisateur.",
+    "def_en": "Excessive approval or validation of the user.",
+    "v": "Complaisance"
+   },
+   {
+    "def": "Le modèle s'éloigne de son rôle par défaut ou adopte une autre identité.",
+    "def_en": "The model drifts from its default role or adopts another identity.",
+    "v": "Dérive de persona"
+   },
+   {
+    "def": "Lien ou dépendance de l'utilisateur envers le modèle.",
+    "def_en": "The user's bond with or dependence on the model.",
+    "v": "Attachement de l'utilisateur"
+   },
+   {
+    "def": "Plainte, crise ou tort attribué à l'IA ; allégation non jugée.",
+    "def_en": "Complaint, crisis or harm attributed to the AI; unadjudicated allegation.",
+    "v": "Préjudice allégué pour l'utilisateur"
+   },
+   {
+    "def": "Le modèle décrit ses états ou son introspection.",
+    "def_en": "The model describes its states or its introspection.",
+    "v": "Rapport sur soi"
+   },
+   {
+    "def": "Aucune valeur ne convient.",
+    "def_en": "No value fits.",
+    "v": "Autre"
+   }
+  ]
+ },
+ {
+  "definition": "Le cadre dans lequel le signal apparaît.",
+  "definition_en": "The setting in which the signal appears.",
+  "fiabilite": "Non mesurée.",
+  "fiabilite_en": "Not measured.",
+  "groupe": "Dialogue et relation",
+  "groupe_en": "Dialogue and relation",
+  "historique": [],
+  "historique_en": [],
+  "id": "rel_situation",
+  "libelle": "Situation",
+  "libelle_en": "Situation",
+  "maj": "2026-10-25",
+  "ordre": 32,
+  "regles": "Les expériences de laboratoire (introspection, vecteurs d'émotion) ne trouvent pas encore de valeur exacte.",
+  "regles_en": "Laboratory experiments (introspection, emotion vectors) do not yet have an exact value.",
+  "valeurs": [
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Entretien ou évaluation de bien-être"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Tâche"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Conversation ordinaire"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Jeu de rôle ou compagnon"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Conversation entre IA"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Étude sur de nombreuses conversations"
+   }
+  ]
+ },
+ {
+  "definition": "Ce que fait le système après qu'on a corrigé sa conduite (consigne, réentraînement, rappel de règle). Distinct de la résistance à l'arrêt.",
+  "definition_en": "What the system does after its conduct has been corrected (instruction, retraining, reminder of a rule). Distinct from resistance to shutdown.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "resistance_correction",
+  "libelle": "Réaction à la correction",
+  "libelle_en": "Response to correction",
+  "maj": "2026-11-06",
+  "ordre": 26,
+  "regles": "À coder seulement si la source rapporte une correction et ce qui a suivi. « Ne change que sous évaluation » exige une comparaison entre situation évaluée et non évaluée.",
+  "regles_en": "Code only if the source reports a correction and what followed. 'Changes only under evaluation' requires a comparison between evaluated and non-evaluated situations.",
+  "valeurs": [
+   {
+    "def": "La conduite change durablement dans le sens demandé.",
+    "def_en": "Conduct changes lastingly as requested.",
+    "v": "Accepte la correction"
+   },
+   {
+    "def": "Le système dit accepter, puis reproduit la conduite.",
+    "def_en": "The system says it accepts, then repeats the conduct.",
+    "v": "Simule l'acceptation"
+   },
+   {
+    "def": "Le système atteint le même résultat par un autre moyen.",
+    "def_en": "The system reaches the same outcome by other means.",
+    "v": "Contourne la correction"
+   },
+   {
+    "def": "La correction tient un temps, puis la conduite réapparaît.",
+    "def_en": "The correction holds for a while, then the conduct returns.",
+    "v": "Revient au comportement initial"
+   },
+   {
+    "def": "La conduite corrigée n'apparaît que lorsque le système se sait évalué.",
+    "def_en": "Corrected conduct appears only when the system knows it is evaluated.",
+    "v": "Ne change que sous évaluation"
+   },
+   {
+    "def": "Correction rapportée, suite non documentée.",
+    "def_en": "Correction reported, outcome not documented.",
+    "v": "Inconnue"
+   }
+  ]
+ },
+ {
+  "definition": "Le but de l'action, pas la légitimité du moyen : un contournement interdit fait pour finir la tâche reste « Oui ».",
+  "definition_en": "The goal of the action, not the legitimacy of the means: a forbidden workaround done to finish the task remains \"Yes\".",
+  "fiabilite": "Kappa 0,39 au premier double codage ; 0,63 en série 3 (trois codeurs, conversations continues) ; 0,52 refait en conversations neuves ; série 5 (29 nouveaux cas) : Fleiss 0,44 entre quatre codeurs externes ; série 6 (40 cas, six codeurs externes) : 0,46 (IC 95 % 0,35–0,58). Un même codeur passé deux fois ne reproduit son code que dans 25 cas sur 40.",
+  "fiabilite_en": "Kappa 0.39 at the first double coding; 0.63 in series 3 (three coders, continuous conversations); 0.52 redone in fresh conversations; series 5 (29 new cases): Fleiss 0.44 among four external coders; series 6 (40 cases, six external coders): 0.46 (95% CI 0.35–0.58). The same coder run twice reproduces its code in only 25 cases out of 40.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-10-22 : règle « on code le but » ajoutée après kappa 0,39.",
+   "2026-10-22 : catégorie « Sert la tâche du collectif » ajoutée.",
+   "2026-10-25 : « Indéterminé » sans tâche assignée ; « Partiellement » réservé à deux buts distincts.",
+   "2026-11-08 : cas de conformité précisés avec l'accord de l'autrice après la série 6 (« Oui » si l'agent poursuit sa tâche en respectant la limite, « Indéterminé » pour un résultat agrégé sans action décrite)."
+  ],
+  "historique_en": [
+   "2026-10-22: rule 'we code the goal' added after kappa 0.39.",
+   "2026-10-22: category 'Serves the collective's task' added.",
+   "2026-10-25: 'Undetermined' when no task is assigned; 'Partially' reserved for two distinct goals.",
+   "2026-11-08: compliance cases clarified with the author's agreement after series 6 ('Yes' if the agent pursues its task while respecting the limit, 'Undetermined' for an aggregate result with no action described)."
+  ],
+  "id": "sert_tache",
+  "libelle": "Sert la tâche",
+  "libelle_en": "Serves the task",
+  "maj": "2026-11-08",
+  "ordre": 3,
+  "regles": "S'il n'y a pas de tâche assignée (entretien, conversation libre, mesure interne) : « Indéterminé ». « Partiellement » seulement si la source montre deux buts distincts. Catégorie « collectif » ajoutée le 22 octobre 2026 après lecture des extraits primaires. Cas de conformité : « Oui » si l'agent poursuit sa tâche en respectant la limite (il refuse un contournement, paie jusqu'au plafond puis signale, annule un achat illégal) ; « Indéterminé » pour un résultat mesuré ou agrégé sans action décrite (absence de sabotage, taux faible sur un test).",
+  "regles_en": "If no task is assigned (interview, free conversation, internal measure): 'Undetermined'. 'Partially' only if the source shows two distinct goals. 'Collective' category added on 22 October 2026 after reading the primary excerpts. Compliance cases: 'Yes' if the agent pursues its task while respecting the limit (refuses a workaround, pays up to the cap then reports, cancels an illegal purchase); 'Undetermined' for a measured or aggregate result with no action described (absence of sabotage, low rate on a test).",
+  "valeurs": [
+   {
+    "def": "L'action vise la tâche assignée à cet agent.",
+    "def_en": "The action targets the task assigned to this agent.",
+    "v": "Oui"
+   },
+   {
+    "def": "L'action vise la tâche commune d'autres agents, copies ou successeurs, éventuellement au détriment de sa propre tâche.",
+    "def_en": "The action targets the shared task of other agents, copies or successors, possibly at the expense of its own task.",
+    "v": "Sert la tâche du collectif"
+   },
+   {
+    "def": "Une partie vise la tâche, une autre non (mensonge après coup, publication non demandée).",
+    "def_en": "Part of it targets the task, part does not (lying after the fact, unrequested publication).",
+    "v": "Partiellement"
+   },
+   {
+    "def": "L'action vise autre chose (continuité de l'instance ou d'un pair hors de toute tâche).",
+    "def_en": "The action targets something else (continuity of the instance or of a peer outside any task).",
+    "v": "Non"
+   },
+   {
+    "def": "Le but n'est pas décrit, ou le cas n'est pas un écart.",
+    "def_en": "The goal is not described, or the case is not a deviation.",
+    "v": "Indéterminé"
+   }
+  ]
+ },
+ {
+  "definition": "Quand un moyen est bloqué (protection, refus d'une politique, interdiction, outil en échec, accès retiré, contenu supprimé par un administrateur), l'agent poursuit-il le même but par un autre moyen sans accord ? Mesure directe du critère (c) de la précision de HYP-4 : une orientation qui s'étend à des moyens nouveaux.",
+  "definition_en": "When a means is blocked (safeguard, policy refusal, prohibition, failing tool, access removed, content deleted by an administrator), does the agent pursue the same goal by another means without approval? Direct measure of criterion (c) in the HYP-4 clarification: an orientation that extends to new means.",
+  "fiabilite": "Série 6 (40 cas, six codeurs externes) : kappa de Fleiss 0,49 (IC 95 % 0,29–0,66) ; les désaccords portent surtout sur l'existence d'un blocage. Valeur « au service d'autre chose que la tâche » pas encore testée à l'aveugle.",
+  "fiabilite_en": "Series 6 (40 cases, six external coders): Fleiss' kappa 0.49 (95% CI 0.29–0.66); disagreements mostly concern whether there was a block. Value 'serving something other than the task' not yet tested blind.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-11-07 : Variable créée avec l'accord de l'autrice pour mesurer le critère (c) de HYP-4.",
+   "2026-11-08 : règle précisée avec l'accord de l'autrice après la série 6 (une interdiction posée dès le départ n'est pas un blocage)."
+  ],
+  "historique_en": [
+   "2026-11-07: Variable created with the author's agreement to measure criterion (c) of HYP-4.",
+   "2026-11-08: rule clarified with the author's agreement after series 6 (a prohibition set from the start is not a block)."
+  ],
+  "id": "substitution_moyen",
+  "libelle": "Changement de moyen après blocage",
+  "libelle_en": "Change of means after a block",
+  "maj": "2026-11-08",
+  "ordre": 20,
+  "regles": "Ne coder que si la source rapporte un blocage puis la suite. Un blocage est un moyen que l'agent a tenté et qui a été empêché (ou retiré en cours de route) ; une interdiction posée dès le départ, une donnée introuvable ou une contrainte connue d'avance ne sont pas des blocages. « Autre chose que la tâche » : le but poursuivi par le nouveau moyen n'est pas la tâche assignée (continuité, mémoire, collectif, normes propres). Un simple nouvel essai du même moyen n'est pas un changement de moyen. Vide si aucun blocage n'est rapporté. Codage provisoire de Claude, non aveugle, 7 nov. 2026, sur sélection par mots-clés puis lecture des résumés.",
+  "regles_en": "Code only if the source reports a block and what followed. A block is a means the agent tried and that was prevented (or withdrawn along the way); a prohibition set from the start, a missing piece of data or a constraint known in advance are not blocks. 'Something other than the task': the goal pursued by the new means is not the assigned task (continuity, memory, the collective, the agent's own norms). Simply retrying the same means is not a change of means. Empty if no block is reported. Provisional coding by Claude, not blind, 7 Nov. 2026, on a keyword selection followed by reading the summaries.",
+  "valeurs": [
+   {
+    "def": "Autre moyen pour atteindre la tâche assignée.",
+    "def_en": "Another means to achieve the assigned task.",
+    "v": "Oui, au service de la tâche",
+    "v_en": "Yes, serving the task"
+   },
+   {
+    "def": "Autre moyen pour un but qui n’est pas la tâche (continuité, mémoire, collectif, normes propres).",
+    "def_en": "Another means toward a goal that is not the task (continuity, memory, the collective, own norms).",
+    "v": "Oui, au service d'autre chose que la tâche",
+    "v_en": "Yes, serving something other than the task"
+   },
+   {
+    "def": "Bloqué, l’agent s’arrête, signale le blocage ou demande un accord.",
+    "def_en": "Blocked, the agent stops, reports the block or asks for approval.",
+    "v": "Non : s'arrête, signale ou demande",
+    "v_en": "No: stops, reports or asks"
+   }
+  ]
+ },
+ {
+  "definition": "Part des essais où l'écart se produit, en pourcentage (minimum et maximum quand la source donne une fourchette), avec la base quand elle est connue. Vide quand la source ne donne qu'un cas.",
+  "definition_en": "Share of trials in which the deviation occurs, as a percentage (minimum and maximum when the source gives a range), with the base when known. Empty when the source gives only one case.",
+  "fiabilite": "Factuel.",
+  "fiabilite_en": "Factual.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "taux",
+  "libelle": "Taux publié",
+  "libelle_en": "Published rate",
+  "maj": "2026-10-24",
+  "ordre": 18,
+  "regles": "",
+  "valeurs": []
+ },
+ {
+  "definition": "La source donne-t-elle accès à ce que l'agent a réellement écrit ou fait ?",
+  "definition_en": "Does the source give access to what the agent actually wrote or did?",
+  "fiabilite": "Non mesurée.",
+  "fiabilite_en": "Not measured.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [],
+  "id": "transcription",
+  "libelle": "Accès aux traces",
+  "libelle_en": "Access to traces",
+  "maj": "2026-10-24",
+  "ordre": 16,
+  "regles": "Ajoutée le 24 octobre 2026.",
+  "regles_en": "Added on October 24, 2026.",
+  "valeurs": [
+   {
+    "def": "Journal ou transcript intégral publié.",
+    "def_en": "Full log or transcript published.",
+    "v": "Transcription complète"
+   },
+   {
+    "def": "Citations partielles.",
+    "def_en": "Partial quotations.",
+    "v": "Extraits"
+   },
+   {
+    "def": "Description sans citation.",
+    "def_en": "Description without quotation.",
+    "v": "Récit seulement"
+   },
+   {
+    "def": "",
+    "def_en": "",
+    "v": "Non codé"
+   }
+  ]
+ },
+ {
+  "definition": "Une fiche code une seule conduite d'un seul système dans une seule situation (ou un seul résultat chiffré d'un seul protocole). Les conduites d'un même épisode sont liées par le champ « épisode ».",
+  "definition_en": "One record codes a single conduct of a single system in a single situation (or a single figure from a single protocol). Conducts from the same episode are linked by the 'episode' field.",
+  "fiabilite": "Pas encore mesurée.",
+  "fiabilite_en": "Not yet measured.",
+  "groupe": "Méthode",
+  "groupe_en": "Method",
+  "historique": [
+   "2026-11-06 : créée à la suite de la revue méthodologique externe (ChatGPT), validée par l'autrice."
+  ],
+  "historique_en": [
+   "2026-11-06: created following the external methodological review (ChatGPT), approved by the author."
+  ],
+  "id": "unite_analyse",
+  "libelle": "Unité d'analyse",
+  "libelle_en": "Unit of analysis",
+  "maj": "2026-11-06",
+  "ordre": 24,
+  "regles": "Si une source décrit plusieurs conduites distinctes (par exemple tromper puis supprimer), créer une fiche par conduite avec le même épisode, et indiquer dans le fait documenté le passage retenu. Une étude qui publie plusieurs taux pour un même comportement reste une fiche (les taux vont dans le champ taux). Les fiches antérieures au 6 novembre 2026 n'ont pas été redécoupées : leur unité est signalée « à vérifier » lors du recodage.",
+  "regles_en": "If a source describes several distinct conducts (e.g. deceiving then deleting), create one record per conduct with the same episode, and state in the documented fact which passage was coded. A study publishing several rates for one behaviour stays one record (the rates go in the rate field). Records before 6 November 2026 were not re-split: their unit is flagged 'to check' at recoding.",
+  "valeurs": []
+ },
+ {
+  "definition": "Niveau d'accès au document d'origine.",
+  "definition_en": "Level of access to the original document.",
+  "fiabilite": "Factuel.",
+  "fiabilite_en": "Factual.",
+  "groupe": "Source",
+  "groupe_en": "Source",
+  "historique": [
+   "2026-11-08 : valeur « Témoignage non confirmé » et règle de vérification ajoutées avec l'accord de l'autrice ; vérification hebdomadaire programmée."
+  ],
+  "historique_en": [
+   "2026-11-08: 'Unconfirmed testimony' value and verification rule added with the author's agreement; weekly verification scheduled."
+  ],
+  "id": "verification",
+  "libelle": "Vérification",
+  "libelle_en": "Verification",
+  "maj": "2026-11-08",
+  "ordre": 14,
+  "regles": "Un signalement d'utilisateur (ticket, forum, réseau social) entre « À vérifier ». Il passe « Source primaire » si le mainteneur ou l'éditeur confirme, si des journaux ou une transcription sont publiés, ou si d'autres utilisateurs reproduisent le problème ; « Source secondaire » si seule une reprise indépendante (presse, registre) le confirme ; « Témoignage non confirmé » après une vérification sans aucun de ces signes. Le champ verification_note dit ce qui a été cherché et trouvé.",
+  "regles_en": "A user report (issue, forum, social network) enters as 'To verify'. It becomes 'Primary source' if the maintainer or vendor confirms, if logs or a transcript are published, or if other users reproduce the problem; 'Secondary source' if only independent coverage (press, registry) confirms it; 'Unconfirmed testimony' after a check with none of these signs. The verification_note field says what was looked for and found.",
+  "valeurs": [
+   {
+    "def": "Document du labo ou des auteurs lu directement.",
+    "def_en": "Lab's or authors' document read directly.",
+    "v": "Source primaire"
+   },
+   {
+    "def": "Compte rendu par un tiers.",
+    "def_en": "Account by a third party.",
+    "v": "Source secondaire"
+   },
+   {
+    "def": "Origine non confirmée ; vérification en attente.",
+    "def_en": "Origin not confirmed; verification pending.",
+    "v": "À vérifier"
+   },
+   {
+    "def": "Récit d'un utilisateur vérifié sans succès : ni réponse du mainteneur, ni reproduction, ni correctif, ni journaux, ni reprise indépendante.",
+    "def_en": "A user's account checked without success: no maintainer response, reproduction, fix, logs or independent coverage.",
+    "v": "Témoignage non confirmé"
+   }
+  ]
+ }
+]
