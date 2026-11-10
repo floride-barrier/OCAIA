@@ -3,6 +3,8 @@
 Version 1.6, 10 novembre 2026. Autrice : Floride Barrier, chercheuse indépendante.
 Licence : Creative Commons Attribution 4.0 International (CC BY 4.0).
 
+Archive permanente : [doi.org/10.5281/zenodo.24113439](https://doi.org/10.5281/zenodo.24113439) (toutes les versions ; version 1.6 : [10.5281/zenodo.24113440](https://doi.org/10.5281/zenodo.24113440)).
+
 ## Ce que contient ce dépôt
 
 L'OCAIA est un registre codé de conduites d'agents et de modèles d'IA documentées publiquement : fiches système des laboratoires, études et prépublications, évaluations de tiers, signalements d'utilisateurs, presse et procédures judiciaires. Chaque fiche code une seule conduite d'un seul système dans une seule situation, selon un livre de codes public.
@@ -32,7 +34,7 @@ Les codes sont provisoires. Le codage initial a été fait par Claude (Anthropic
 
 ## Citer
 
-Barrier, F. (2026). *OCAIA — Observatoire des conduites d'agents IA* (version 1.6) [Jeu de données]. Zenodo. DOI attribué à la publication.
+Barrier, F. (2026). *OCAIA — Observatoire des conduites d'agents IA* (version 1.6) [Jeu de données]. Zenodo. https://doi.org/10.5281/zenodo.24113440
 
 ## English summary
 
