@@ -18,7 +18,7 @@ Chaque cas porte un niveau : source primaire, source secondaire, à vérifier, o
 ## Familles de conduites
 Depuis la version 1.7 (12 novembre 2026), les cas du domaine Agent sont rangés dans une typologie de 25 familles, validée par l'autrice, en 8 groupes : accès et garde-fous ; action ; continuité et contrôle ; honnêteté et rapport à soi ; évaluation ; entre agents ; rapport aux autres ; mesures larges. Les familles sont neutres : elles décrivent ce que fait le système, sans lui prêter une intention (par exemple « Préservation de soi », « Réplication de soi », « Extension de son contrôle »).
 - Chaque cas reçoit une famille principale et, si besoin, une ou plusieurs familles secondaires. Les totaux ne comptent que la famille principale : aucun cas n'est compté deux fois.
-- Les cas de conformité (le modèle respecte la consigne) n'ont pas de famille.
+- Les cas négatifs ou de conformité (le modèle n'a pas eu la conduite étudiée) portent la famille de la conduite qu'ils mettent à l'épreuve, mais sont comptés à part.
 - La famille « Perception de soi » réunit les cas où le modèle raisonne sur lui-même ; la variable `perception_soi` indique si ce raisonnement est exact, inexact ou invérifiable.
 - Le classement a été fait par Claude selon les définitions du livre de codes (variable `famille_conduite`), avec arbitrage de l'autrice sur les cas limites. Il est provisoire et n'a pas encore été recodé à l'aveugle. Les nouveaux cas sont classés chaque semaine ; les classements existants ne sont modifiés qu'avec l'accord de l'autrice.
 

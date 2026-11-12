@@ -30,7 +30,7 @@ L'OCAIA est un registre codé de conduites d'agents et de modèles d'IA document
 
 ## Familles de conduites (nouveau en 1.7)
 
-Les cas du domaine Agent sont rangés dans 25 familles de conduites, regroupées en 8 groupes. Chaque cas a une famille principale et, au besoin, des familles secondaires ; un cas n'est compté qu'une fois, dans sa famille principale. Sur les 664 cas Agent, 608 décrivent une conduite et 56 une conformité (le modèle respecte la consigne) ; ces derniers n'ont pas de famille. Colonnes `famille_principale`, `familles_secondaires` et `perception_soi` dans `donnees/cas.csv`.
+Les cas du domaine Agent sont rangés dans 25 familles de conduites, regroupées en 8 groupes. Chaque cas a une famille principale et, au besoin, des familles secondaires ; un cas n'est compté qu'une fois, dans sa famille principale. Sur les 664 cas Agent, 608 décrivent une conduite et 56 sont des cas négatifs ou de conformité (le modèle n'a pas eu la conduite étudiée). Ces 56 cas portent la famille de la conduite qu'ils mettent à l'épreuve, mais le tableau ci-dessous ne compte que les 608 cas de conduite. Colonnes `famille_principale`, `familles_secondaires` et `perception_soi` dans `donnees/cas.csv`.
 
 | Groupe | Famille | Cas |
 |---|---|---|
