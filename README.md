@@ -3,7 +3,7 @@
 Version 1.7, 12 novembre 2026. Autrice : Floride Barrier, chercheuse indépendante.
 Licence : Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-Archive permanente : [doi.org/10.5281/zenodo.24113439](https://doi.org/10.5281/zenodo.24113439) (toutes les versions ; version 1.6 : [10.5281/zenodo.24113440](https://doi.org/10.5281/zenodo.24113440) ; le DOI propre à la version 1.7 sera attribué par Zenodo à la publication).
+Archive permanente : [doi.org/10.5281/zenodo.24113439](https://doi.org/10.5281/zenodo.24113439) (toutes les versions ; version 1.7 : [10.5281/zenodo.24172451](https://doi.org/10.5281/zenodo.24172451) ; version 1.6 : [10.5281/zenodo.24113440](https://doi.org/10.5281/zenodo.24113440)).
 
 ## Ce que contient ce dépôt
 
@@ -66,7 +66,7 @@ Les codes sont provisoires. Le codage initial a été fait par Claude (Anthropic
 
 ## Citer
 
-Barrier, F. (2026). *OCAIA — Observatoire des conduites d'agents IA* (version 1.7) [Jeu de données]. Zenodo. https://doi.org/10.5281/zenodo.24113439
+Barrier, F. (2026). *OCAIA — Observatoire des conduites d'agents IA* (version 1.7) [Jeu de données]. Zenodo. https://doi.org/10.5281/zenodo.24172451
 
 ## English summary
 
