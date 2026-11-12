@@ -6,16 +6,8 @@
   "n_cas": 102,
   "titre": "Première version exportable",
   "titre_en": "First exportable version",
-  "version": "1.0"
- },
- {
-  "changements": "Relecture de sécurité de tous les cas : particuliers anonymisés (y compris dans 7 identifiants de cas renommés), plaintes formulées comme allégations non jugées, détails opérationnels retirés, formulations prudentes sur le bien-être des modèles, citations raccourcies (52 corrections). Règles du livre de codes précisées (direction, but de l'action, regard d'autrui) après la série 5 à l'aveugle ; codes majoritaires des codeurs externes appliqués à 15 codes ; 114 cas provisoires du domaine Agents recodés selon les règles précisées (77 modifiés, ancien code conservé). Note de méthode 1.3.",
-  "changements_en": "Safety review of all cases: private individuals anonymised (including 7 renamed case identifiers), lawsuits phrased as unadjudicated allegations, operational details removed, cautious wording on model welfare, quotations shortened (52 corrections). Codebook rules clarified (direction, purpose of the action, being seen by others) after blind series 5; external coders' majority codes applied to 15 codes; 114 provisional Agents cases recoded under the clarified rules (77 changed, previous code kept). Methods note 1.3.",
-  "date": "2026-10-25",
-  "n_cas": 301,
-  "titre": "Anonymisation, relecture éditoriale, recodage",
-  "titre_en": "Anonymisation, editorial review, recoding",
-  "version": "1.3"
+  "version": "1.0",
+  "id": "v1-0"
  },
  {
   "changements": "Nouveau nom (OCAIA) ; interface et données en français et en anglais ; contributions par proposition puis modération ; correspondances avec l'AIID et l'OCDE ; fiche qualité des sources ; 194 nouveaux cas (publications des labos, évaluations par des tiers, déploiements réels, dialogue et relation), codage provisoire non aveugle ; licence CC BY 4.0.",
@@ -24,7 +16,8 @@
   "n_cas": 296,
   "titre": "OCAIA : observatoire bilingue et contributif",
   "titre_en": "OCAIA: bilingual, contributory observatory",
-  "version": "1.1"
+  "version": "1.1",
+  "id": "v1-1"
  },
  {
   "changements": "Séparation des domaines Agents autonomes et Dialogue et relation, avec des variables propres au second ; statut de vérification affiché pour chaque cas ; mention du codage assisté par IA ; tableau des cas rapportés aux documents sources par laboratoire ; note de méthode bilingue téléchargeable ; série d'entraînement au codage ; vérification des sources sur 30 cas (1 date corrigée, 4 résumés réécrits).",
@@ -33,16 +26,18 @@
   "n_cas": 296,
   "titre": "Deux domaines, statut de vérification, note de méthode",
   "titre_en": "Two domains, verification status, methods note",
-  "version": "1.2"
+  "version": "1.2",
+  "id": "v1-2"
  },
  {
-  "changements": "À la suite d'une revue méthodologique externe (ChatGPT), validée par l'autrice : trois champs par cas (fait documenté, interprétation de la source, interprétation de l'OCAIA), remplis pour les nouveaux cas et pour 13 cas prioritaires ; règle d'unité d'analyse (une conduite par fiche, liées par l'épisode) ; trois variables (désobéissance constructive, réaction à la correction, degré de coordination) ; le « noyau qui résiste » devient « écarts inexpliqués » ; critères d'abandon de HYP-1 à HYP-4 rédigés et figés, critère de H5 reformulé (contenu de la mémoire contre continuité vécue) ; fiabilité de la série 5 publiée (kappa, intervalles de confiance, matrices de désaccord) ; note de méthode 1.5.",
-  "changements_en": "Following an external methodological review (ChatGPT), approved by the author: three fields per case (documented fact, source's interpretation, OCAIA's interpretation), filled for new cases and 13 priority cases; unit-of-analysis rule (one conduct per record, linked by episode); three variables (constructive disobedience, response to correction, degree of coordination); the 'core that resists' becomes 'unexplained deviations'; abandonment criteria for HYP-1 to HYP-4 written and frozen, H5 criterion reformulated (content of memory versus lived continuity); series 5 reliability published (kappa, confidence intervals, disagreement matrices); methods note 1.5.",
-  "date": "2026-11-06",
-  "n_cas": 486,
-  "titre": "Lecture en trois niveaux, fiabilité publiée, critères d'abandon",
-  "titre_en": "Three-level reading, published reliability, abandonment criteria",
-  "version": "1.5"
+  "changements": "Relecture de sécurité de tous les cas : particuliers anonymisés (y compris dans 7 identifiants de cas renommés), plaintes formulées comme allégations non jugées, détails opérationnels retirés, formulations prudentes sur le bien-être des modèles, citations raccourcies (52 corrections). Règles du livre de codes précisées (direction, but de l'action, regard d'autrui) après la série 5 à l'aveugle ; codes majoritaires des codeurs externes appliqués à 15 codes ; 114 cas provisoires du domaine Agents recodés selon les règles précisées (77 modifiés, ancien code conservé). Note de méthode 1.3.",
+  "changements_en": "Safety review of all cases: private individuals anonymised (including 7 renamed case identifiers), lawsuits phrased as unadjudicated allegations, operational details removed, cautious wording on model welfare, quotations shortened (52 corrections). Codebook rules clarified (direction, purpose of the action, being seen by others) after blind series 5; external coders' majority codes applied to 15 codes; 114 provisional Agents cases recoded under the clarified rules (77 changed, previous code kept). Methods note 1.3.",
+  "date": "2026-10-25",
+  "n_cas": 301,
+  "titre": "Anonymisation, relecture éditoriale, recodage",
+  "titre_en": "Anonymisation, editorial review, recoding",
+  "version": "1.3",
+  "id": "v1-3"
  },
  {
   "changements": "Séparation des événements, des mesures et des procédures (nouvelle variable, filtre et badge) ; variable « Rapport de l'agent sur son action » pour les nouveaux cas ; signalement des résultats de conformité obtenus sous regard ; tableau de transparence sur le bien-être des modèles (15 fiches) ; le codage de référence exige désormais au moins deux codeurs indépendants, Claude n'étant qu'un codeur parmi d'autres ; note de méthode 1.4.",
@@ -51,6 +46,31 @@
   "n_cas": 382,
   "titre": "Nature de la preuve, rapport de l'agent, transparence sur le bien-être",
   "titre_en": "Nature of the evidence, agent's report, welfare transparency",
-  "version": "1.4"
+  "version": "1.4",
+  "id": "v1-4"
+ },
+ {
+  "changements": "À la suite d'une revue méthodologique externe (ChatGPT), validée par l'autrice : trois champs par cas (fait documenté, interprétation de la source, interprétation de l'OCAIA), remplis pour les nouveaux cas et pour 13 cas prioritaires ; règle d'unité d'analyse (une conduite par fiche, liées par l'épisode) ; trois variables (désobéissance constructive, réaction à la correction, degré de coordination) ; le « noyau qui résiste » devient « écarts inexpliqués » ; critères d'abandon de HYP-1 à HYP-4 rédigés et figés, critère de H5 reformulé (contenu de la mémoire contre continuité vécue) ; fiabilité de la série 5 publiée (kappa, intervalles de confiance, matrices de désaccord) ; note de méthode 1.5.",
+  "changements_en": "Following an external methodological review (ChatGPT), approved by the author: three fields per case (documented fact, source's interpretation, OCAIA's interpretation), filled for new cases and 13 priority cases; unit-of-analysis rule (one conduct per record, linked by episode); three variables (constructive disobedience, response to correction, degree of coordination); the 'core that resists' becomes 'unexplained deviations'; abandonment criteria for HYP-1 to HYP-4 written and frozen, H5 criterion reformulated (content of memory versus lived continuity); series 5 reliability published (kappa, confidence intervals, disagreement matrices); methods note 1.5.",
+  "date": "2026-11-06",
+  "n_cas": 486,
+  "titre": "Lecture en trois niveaux, fiabilité publiée, critères d'abandon",
+  "titre_en": "Three-level reading, published reliability, abandonment criteria",
+  "version": "1.5",
+  "id": "v1-5"
+ },
+ {
+  "changements": "Première version archivée de façon permanente sur Zenodo (DOI 10.5281/zenodo.24113440 ; toutes versions : 10.5281/zenodo.24113439), sous licence CC BY 4.0, avec l'identifiant ORCID de l'autrice. Dépôt public sur GitHub (floride-barrier/OCAIA). Relecture d'anonymisation des 414 cas entrés depuis le 25 octobre (trois liens remplacés). Cinq documents méthodologiques posés avant analyse rendus publics.",
+  "changements_en": "First version permanently archived on Zenodo (DOI 10.5281/zenodo.24113440; all versions: 10.5281/zenodo.24113439), under CC BY 4.0, with the author's ORCID. Public GitHub repository (floride-barrier/OCAIA). Anonymisation review of the 414 cases added since 25 October (three links replaced). Five methodological documents set before analysis made public.",
+  "date": "2026-11-10",
+  "id": "v1-6",
+  "version": "1.6"
+ },
+ {
+  "id": "v1-7",
+  "version": "1.7",
+  "date": "2026-11-12",
+  "changements": "Typologie des conduites : 25 familles en 8 groupes, décrites par l'acte observable (noms neutres, jamais une « volonté »), avec une famille principale par cas (seule comptée) et des familles secondaires pour les croisements ; nouvelle variable « perception de soi » (exacte, inexacte, invérifiable). Classement provisoire des 664 cas du domaine Agent (Claude, non aveugle). Règle de vérification v4 (reproduction par au moins deux utilisateurs indépendants ; corroborations notées sans changer le niveau). 20 codes corrigés après le contrôle de cohérence du 9 novembre. 780 cas.",
+  "changements_en": "Conduct typology: 25 families in 8 groups, described by the observable act (neutral names, never a 'will'), with one main family per case (the only one counted) and secondary families for cross-tabulation; new 'self-perception' variable (accurate, inaccurate, unverifiable). Provisional classification of the 664 Agent-domain cases (Claude, not blind). Verification rule v4 (reproduction by at least two independent users; corroborations noted without changing the level). 20 codes corrected after the 9 November coherence check. 780 cases."
  }
 ]

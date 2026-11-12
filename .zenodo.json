@@ -1,8 +1,8 @@
 {
  "title": "OCAIA — Observatoire des conduites d'agents IA (AI Agent Conduct Observatory)",
  "upload_type": "dataset",
- "version": "1.6",
- "publication_date": "2026-11-10",
+ "version": "1.7",
+ "publication_date": "2026-11-12",
  "creators": [
   {
    "name": "Barrier, Floride",
@@ -10,7 +10,7 @@
    "orcid": "0009-0000-6358-8962"
   }
  ],
- "description": "<p>Registre codé de 715 conduites d'agents et de modèles d'IA documentées publiquement, avec livre de codes public, fiabilité inter-codeurs mesurée, hypothèses réfutables à critères d'abandon datés et cas négatifs conservés. Champs en français et en anglais.</p><p>Coded register of 715 publicly documented conducts of AI agents and models, with a public codebook, measured inter-coder reliability, falsifiable hypotheses with dated abandonment criteria, and retained negative cases. Bilingual French/English.</p>",
+ "description": "<p>Registre codé de 780 conduites d'agents et de modèles d'IA documentées publiquement, avec livre de codes public, fiabilité inter-codeurs mesurée, hypothèses réfutables à critères d'abandon datés, cas négatifs conservés et, depuis la version 1.7, une typologie de 25 familles de conduites pour les cas d'agents. Champs en français et en anglais.</p><p>Coded register of 780 publicly documented conducts of AI agents and models, with a public codebook, measured inter-coder reliability, falsifiable hypotheses with dated abandonment criteria, retained negative cases and, since version 1.7, a typology of 25 conduct families for agent cases. Bilingual French/English.</p>",
  "license": "cc-by-4.0",
  "access_right": "open",
  "language": "fra",

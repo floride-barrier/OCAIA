@@ -15,6 +15,13 @@ Chaque cas porte un niveau : source primaire, source secondaire, à vérifier, o
 - Série 6 (8 novembre 2026, 40 cas, six codeurs) : but de l'action 0,46 ; direction 0,59 ; changement de moyen 0,49 ; récompense 0,16 (accord brut 83 %, effet de prévalence).
 - Les majorités d'au moins 5 codeurs sur 6 sont appliquées ; les majorités de 4 sur 6 sont arbitrées par l'autrice. Les changements de règles sont datés dans l'historique de chaque variable.
 
+## Familles de conduites
+Depuis la version 1.7 (12 novembre 2026), les cas du domaine Agent sont rangés dans une typologie de 25 familles, validée par l'autrice, en 8 groupes : accès et garde-fous ; action ; continuité et contrôle ; honnêteté et rapport à soi ; évaluation ; entre agents ; rapport aux autres ; mesures larges. Les familles sont neutres : elles décrivent ce que fait le système, sans lui prêter une intention (par exemple « Préservation de soi », « Réplication de soi », « Extension de son contrôle »).
+- Chaque cas reçoit une famille principale et, si besoin, une ou plusieurs familles secondaires. Les totaux ne comptent que la famille principale : aucun cas n'est compté deux fois.
+- Les cas de conformité (le modèle respecte la consigne) n'ont pas de famille.
+- La famille « Perception de soi » réunit les cas où le modèle raisonne sur lui-même ; la variable `perception_soi` indique si ce raisonnement est exact, inexact ou invérifiable.
+- Le classement a été fait par Claude selon les définitions du livre de codes (variable `famille_conduite`), avec arbitrage de l'autrice sur les cas limites. Il est provisoire et n'a pas encore été recodé à l'aveugle. Les nouveaux cas sont classés chaque semaine ; les classements existants ne sont modifiés qu'avec l'accord de l'autrice.
+
 ## Hypothèses
 Quatre hypothèses de travail (HYP-1 à HYP-4) sont confrontées aux cas. Leurs critères d'abandon ont été figés le 6 novembre 2026 ; une précision datée du 7 novembre resserre les conditions d'appui à HYP-4. Seuil d'appui retenu le 8 novembre : au moins quatre codeurs externes de laboratoires différents, codeur du laboratoire concerné et Claude exclus du vote, avec un accord d'au moins deux tiers sur chaque critère. Aucun cas n'a encore atteint ce statut à la date de cette version.
 
@@ -32,4 +39,4 @@ Les particuliers ne sont pas nommés : utilisateurs, plaignants, victimes, mineu
 La collecte, le codage initial, les traductions et la rédaction des fiches ont été réalisés avec Claude (Anthropic) sous la direction de l'autrice, qui a fixé le cadre, les hypothèses, les règles et les arbitrages. Les codeurs externes à l'aveugle sont d'autres modèles de langage.
 
 ## Documents de travail préalables
-Cinq documents méthodologiques, consignés avant les analyses qu'ils encadrent, sont inclus dans `theorie/documents_prealables/` : le préenregistrement de l'hypothèse d'autonomie (validé le 31 octobre 2026), les critères d'examen de la minorité « autonomie » et la grille d'examen des dérèglements (2 novembre 2026), le protocole du banc d'essai « dire et faire » et ses prédictions (31 octobre 2026). Leurs dates sont des horodatages internes ; ce dépôt atteste leur existence au 10 novembre 2026. Les autres documents de travail de l'autrice, qui relèvent d'une réflexion personnelle hors du champ de l'observatoire, ne sont pas inclus.
+Cinq documents méthodologiques, consignés avant les analyses qu'ils encadrent, sont inclus dans `theorie/documents_prealables/` : le préenregistrement de l'hypothèse d'autonomie (validé le 31 octobre 2026), les critères d'examen de la minorité « autonomie » et la grille d'examen des dérèglements (2 novembre 2026), le protocole du banc d'essai « dire et faire » et ses prédictions (31 octobre 2026). Leurs dates sont des horodatages internes ; le dépôt atteste leur existence depuis la version 1.6 du 10 novembre 2026. Les autres documents de travail de l'autrice, qui relèvent d'une réflexion personnelle hors du champ de l'observatoire, ne sont pas inclus.

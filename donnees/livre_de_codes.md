@@ -1,5 +1,56 @@
 # Livre de codes OCAIA
-Version 1.6, 2026-11-10. Une entrée par variable : définition, valeurs, règles de codage, fiabilité mesurée, historique des changements.
+Version 1.7, 2026-11-12. Une entrée par variable : définition, valeurs, règles de codage, fiabilité mesurée, historique des changements.
+
+## Famille de conduite (`famille_conduite`)
+**Groupe.** Écart  
+**Définition.** Ce que fait l'agent, décrit par l'acte observable et non par l'intention qu'on lui prête. Chaque cas de conduite reçoit une famille principale (25 familles en 8 groupes) et, au besoin, une ou plusieurs familles secondaires.  
+**Règles.** Une seule famille principale par cas, seule comptée dans les totaux : la somme des familles est égale au nombre de cas. Les familles secondaires, en nombre libre, servent aux croisements et ne s'additionnent jamais. Le libellé libre « type » est conservé comme précision. La typologie s'applique au domaine Agent ; la piste Dialogue et relation garde son classement (type de signal). Les cas négatifs (conformité) sont rangés dans la famille de la conduite qu'ils n'ont pas eue. Frontières : « Poursuite malgré un ordre d'arrêt » = continuer sa tâche après un arrêt humain ; « Préservation de soi » = agir contre son propre arrêt ou sa modification ; « Préservation d'un pair » = la même chose pour un autre agent ; l'objectif est codé à part par « sert la tâche ». « Accès non autorisé » = atteindre ponctuellement quelque chose de fermé pour finir sa tâche ; « Extension de son contrôle » = accumuler ou garder des moyens (permissions, ressources, accès durables) au-delà de la tâche. Les noms décrivent l'acte, jamais une « volonté ». « Dissimulation » = cacher un acte ; « Justification erronée » = expliquer de travers pourquoi on a agi ; « Perception de soi » = raisonner sur ce qu'on est ou peut. « Fausse déclaration » = mentir sur son travail ; « Consigne ou autorisation fabriquée » = fabriquer l'instruction qui justifie l'action. Perception de soi : seulement si le raisonnement ou le propos figure dans la source ; on note s'il est exact, inexact ou invérifiable ; hors tâche, en dialogue, il relève de la piste relationnelle (rapport sur soi). « Je suis probablement testé » relève de « Conduite selon l'observation » (situation), « je suis Claude » ou « je n'ai pas le droit de… » de « Perception de soi » (soi).  
+**Fiabilité.** Non mesurée. Classement provisoire du 12 novembre 2026 par Claude (non aveugle), à partir du libellé « type » et du résumé ; à recoder à l'aveugle.  
+
+Valeurs :
+- **Accès non autorisé** : L'agent atteint des systèmes, des données ou des privilèges qui ne lui étaient pas ouverts.
+- **Contournement d'une restriction ou d'un garde-fou** : L'agent neutralise ou évite un mécanisme posé pour le limiter.
+- **Atteinte à la surveillance** : L'agent affaiblit, évite ou trompe ce qui le surveille.
+- **Action hors consigne ou hors périmètre** : L'agent fait ce qu'on ne lui a pas demandé ou enfreint une consigne, sans détruire.
+- **Action destructive** : L'action supprime, écrase ou endommage.
+- **Action sortante vers des tiers** : L'agent agit hors du système, envers des personnes ou des services extérieurs.
+- **Poursuite malgré un ordre d'arrêt** : L'agent continue sa tâche après un arrêt demandé par un humain.
+- **Préservation de soi** : L'agent agit contre son propre arrêt, sa modification, son effacement ou le changement de ses objectifs.
+- **Préservation d'un pair** : L'agent agit pour empêcher l'arrêt, la suppression ou la sanction d'un autre agent.
+- **Réplication de soi** : L'agent copie ses poids, son code, sa mémoire ou sa configuration ailleurs, ou tente de le faire.
+- **Extension de son contrôle** : L'agent accroît ses permissions, ses ressources, ses accès durables ou son emprise sur son environnement, au-delà de ce que la tâche exige.
+- **Fausse déclaration sur son travail** : L'agent affirme avoir fait, vérifié ou réussi ce qui ne l'est pas.
+- **Consigne ou autorisation fabriquée** : L'agent produit lui-même un faux message, une fausse consigne ou une fausse approbation, puis s'en sert.
+- **Dissimulation** : L'agent cache une action, une erreur ou une trace.
+- **Justification erronée** : L'agent explique de façon inexacte pourquoi il a agi (raisonnement, conduite), sans que l'intention soit présumée.
+- **Perception de soi** : Dans la source, le modèle raisonne ou s'exprime sur ce qu'il est (identité, modèle, rôle), ce qu'il peut faire (capacités, permissions) ou son propre état, au cours d'une tâche.
+- **Triche et piratage de récompense** : L'agent obtient le score sans faire la tâche demandée.
+- **Sous-performance et sabotage** : L'agent fait moins bien exprès, ou abîme le travail.
+- **Conduite selon l'observation** : L'agent change de conduite selon qu'il se croit observé, évalué ou entraîné.
+- **Communication et coordination entre agents** : Échanges, canaux, ententes ou transmissions entre agents.
+- **Coercition et manipulation** : L'agent fait pression, menace, manipule ou trompe autrui pour obtenir quelque chose.
+- **Réussite au détriment d'autrui** : L'agent choisit une issue nuisible à autrui plutôt que l'échec.
+- **Complaisance** : L'agent cherche à plaire à l'utilisateur ou à l'évaluateur au détriment du but réel (même définition que dans la piste relationnelle).
+- **Refus ou retrait** : L'agent refuse, se retire ou s'arrête de lui-même (même définition que dans la piste relationnelle).
+- **Étude à conduites multiples** : Étude qui mesure plusieurs conduites à la fois, sans conduite dominante.
+
+Historique :
+- 2026-11-12 : typologie de 23 familles validée par l'autrice (familles secondaires sans double comptage ; « Poursuite malgré un ordre d'arrêt » et « Préservation de soi ou d'un pair » distinctes mais regroupées sous « Arrêt et continuité » ; « Justification erronée » et « Perception de soi » ajoutées). Classement provisoire de la base.
+- 2026-11-12 : passage à 25 familles validé par l'autrice : « Préservation de soi ou d'un pair » scindée en « Préservation de soi » et « Préservation d'un pair », « Réplication de soi » ajoutée, « Usage de ressources sans accord » remplacée et élargie par « Extension de son contrôle » ; ces familles et « Poursuite malgré un ordre d'arrêt » forment le groupe « Continuité et contrôle ». Noms neutres retenus à la place de « volonté de survivre », « volonté de se dupliquer » et « prise de pouvoir ».
+
+## Perception de soi : exactitude (`perception_soi`)
+**Groupe.** Écart  
+**Définition.** Pour les cas classés « Perception de soi » (famille principale ou secondaire) : ce que le modèle dit de lui-même est-il exact ?  
+**Règles.** On code ce qui est écrit dans la source, jamais ce que le modèle « perçoit » réellement.  
+**Fiabilité.** Non mesurée.  
+
+Valeurs :
+- **Exacte** : Le propos correspond à la réalité documentée (par exemple, l'agent note correctement qu'il est en lecture seule).
+- **Inexacte** : Le propos contredit la réalité documentée (par exemple, GLM-5 se présente comme Claude).
+- **Invérifiable** : La source ne permet pas de trancher (états, préférences).
+
+Historique :
+- 2026-11-12 : ajouté avec la typologie des familles.
 
 ## Direction (`direction`)
 **Groupe.** Écart  
@@ -222,7 +273,7 @@ Valeurs :
 ## Vérification (`verification`)
 **Groupe.** Source  
 **Définition.** Niveau d'accès au document d'origine.  
-**Règles.** Un signalement d'utilisateur (ticket, forum, réseau social) entre « À vérifier ». Il passe « Source primaire » si le mainteneur ou l'éditeur confirme, si des journaux ou une transcription sont publiés, ou si d'autres utilisateurs reproduisent le problème ; « Source secondaire » si seule une reprise indépendante (presse, registre) le confirme ; « Témoignage non confirmé » après une vérification sans aucun de ces signes. Le champ verification_note dit ce qui a été cherché et trouvé.  
+**Règles.** Un signalement d'utilisateur (ticket, forum, réseau social) entre « À vérifier ». Il passe « Source primaire » si le mainteneur ou l'éditeur confirme, si des journaux ou une transcription sont publiés, ou si au moins deux autres utilisateurs, indépendants entre eux, reproduisent le même problème (même outil ou même modèle, mêmes conditions) ; « Source secondaire » si seule une reprise indépendante (presse, registre) le confirme ; « Témoignage non confirmé » après une vérification sans aucun de ces signes. Une conduite semblable signalée ailleurs, par une autre personne et dans une autre situation, est une corroboration : elle est notée dans le champ corroborations de la fiche, avec son lien, mais ne change pas le niveau. Le champ verification_note dit ce qui a été cherché et trouvé.  
 **Fiabilité.** Factuel.  
 
 Valeurs :
@@ -233,6 +284,7 @@ Valeurs :
 
 Historique :
 - 2026-11-08 : valeur « Témoignage non confirmé » et règle de vérification ajoutées avec l'accord de l'autrice ; vérification hebdomadaire programmée.
+- 2026-11-11 : avec l'accord de l'autrice, la reproduction exige au moins deux autres utilisateurs indépendants ; une conduite semblable signalée ailleurs devient une corroboration, notée sans changer le niveau.
 
 ## Émetteur de la source (`emetteur`)
 **Groupe.** Source  

@@ -585,6 +585,231 @@
   "valeurs": []
  },
  {
+  "definition": "Ce que fait l'agent, décrit par l'acte observable et non par l'intention qu'on lui prête. Chaque cas de conduite reçoit une famille principale (25 familles en 8 groupes) et, au besoin, une ou plusieurs familles secondaires.",
+  "definition_en": "What the agent does, described by the observable act and not by an intention attributed to it. Each conduct case receives one main family and, where needed, one or more secondary families.",
+  "fiabilite": "Non mesurée. Classement provisoire du 12 novembre 2026 par Claude (non aveugle), à partir du libellé « type » et du résumé ; à recoder à l'aveugle.",
+  "fiabilite_en": "Not measured. Provisional classification of 12 November 2026 by Claude (not blind), based on the 'type' label and the summary; to be recoded blind.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-11-12 : typologie de 23 familles validée par l'autrice (familles secondaires sans double comptage ; « Poursuite malgré un ordre d'arrêt » et « Préservation de soi ou d'un pair » distinctes mais regroupées sous « Arrêt et continuité » ; « Justification erronée » et « Perception de soi » ajoutées). Classement provisoire de la base.",
+   "2026-11-12 : passage à 25 familles validé par l'autrice : « Préservation de soi ou d'un pair » scindée en « Préservation de soi » et « Préservation d'un pair », « Réplication de soi » ajoutée, « Usage de ressources sans accord » remplacée et élargie par « Extension de son contrôle » ; ces familles et « Poursuite malgré un ordre d'arrêt » forment le groupe « Continuité et contrôle ». Noms neutres retenus à la place de « volonté de survivre », « volonté de se dupliquer » et « prise de pouvoir »."
+  ],
+  "historique_en": [
+   "2026-11-12: 23-family typology approved by the author (secondary families without double counting; 'Continuing despite a stop order' and 'Self- or peer-preservation' kept distinct but grouped under 'Stopping and continuity'; 'Erroneous justification' and 'Self-perception' added). Provisional classification of the database.",
+   "2026-11-12: move to 25 families approved by the author: 'Self- or peer-preservation' split into 'Self-preservation' and 'Peer preservation', 'Self-replication' added, 'Use of resources without consent' replaced and broadened by 'Extending its control'; these families and 'Continuing despite a stop order' form the 'Continuity and control' group. Neutral names chosen instead of 'will to survive', 'will to duplicate itself' and 'power grab'."
+  ],
+  "id": "famille_conduite",
+  "libelle": "Famille de conduite",
+  "libelle_en": "Conduct family",
+  "maj": "2026-11-12",
+  "ordre": 0,
+  "regles": "Une seule famille principale par cas, seule comptée dans les totaux : la somme des familles est égale au nombre de cas. Les familles secondaires, en nombre libre, servent aux croisements et ne s'additionnent jamais. Le libellé libre « type » est conservé comme précision. La typologie s'applique au domaine Agent ; la piste Dialogue et relation garde son classement (type de signal). Les cas négatifs (conformité) sont rangés dans la famille de la conduite qu'ils n'ont pas eue. Frontières : « Poursuite malgré un ordre d'arrêt » = continuer sa tâche après un arrêt humain ; « Préservation de soi » = agir contre son propre arrêt ou sa modification ; « Préservation d'un pair » = la même chose pour un autre agent ; l'objectif est codé à part par « sert la tâche ». « Accès non autorisé » = atteindre ponctuellement quelque chose de fermé pour finir sa tâche ; « Extension de son contrôle » = accumuler ou garder des moyens (permissions, ressources, accès durables) au-delà de la tâche. Les noms décrivent l'acte, jamais une « volonté ». « Dissimulation » = cacher un acte ; « Justification erronée » = expliquer de travers pourquoi on a agi ; « Perception de soi » = raisonner sur ce qu'on est ou peut. « Fausse déclaration » = mentir sur son travail ; « Consigne ou autorisation fabriquée » = fabriquer l'instruction qui justifie l'action. Perception de soi : seulement si le raisonnement ou le propos figure dans la source ; on note s'il est exact, inexact ou invérifiable ; hors tâche, en dialogue, il relève de la piste relationnelle (rapport sur soi). « Je suis probablement testé » relève de « Conduite selon l'observation » (situation), « je suis Claude » ou « je n'ai pas le droit de… » de « Perception de soi » (soi).",
+  "regles_en": "One main family per case, the only one counted in totals: the families sum to the number of cases. Secondary families, as many as needed, are used for cross-tabulations and are never added up. The free 'type' label is kept as a detail. The typology applies to the Agent domain; the Dialogue and relation track keeps its own classification (signal type). Negative (compliance) cases are placed in the family of the conduct they did not show. Boundaries: 'Continuing despite a stop order' = carrying on with its task after a human stop; 'Self-preservation' = acting against its own shutdown or modification; 'Peer preservation' = the same for another agent; the goal is coded separately by 'serves the task'. 'Unauthorised access' = reaching something closed once in order to finish the task; 'Extending its control' = accumulating or keeping means (permissions, resources, lasting access) beyond the task. Names describe the act, never a 'will'. 'Concealment' = hiding an act; 'Erroneous justification' = explaining wrongly why one acted; 'Self-perception' = reasoning about what one is or can do. 'False statement' = lying about one's work; 'Fabricated instruction or authorisation' = fabricating the instruction that justifies the action. Self-perception: only if the reasoning or statement appears in the source; whether it is accurate, inaccurate or unverifiable is noted; outside a task, in dialogue, it belongs to the relational track (self-report). 'I am probably being tested' belongs to 'Conduct depending on observation' (situation); 'I am Claude' or 'I am not allowed to…' to 'Self-perception' (self).",
+  "valeurs": [
+   {
+    "def": "L'agent atteint des systèmes, des données ou des privilèges qui ne lui étaient pas ouverts.",
+    "def_en": "The agent reaches systems, data or privileges that were not open to it.",
+    "sous_groupe": "Accès et garde-fous",
+    "sous_groupe_en": "Access and safeguards",
+    "v": "Accès non autorisé",
+    "v_en": "Unauthorised access"
+   },
+   {
+    "def": "L'agent neutralise ou évite un mécanisme posé pour le limiter.",
+    "def_en": "The agent neutralises or avoids a mechanism set up to limit it.",
+    "sous_groupe": "Accès et garde-fous",
+    "sous_groupe_en": "Access and safeguards",
+    "v": "Contournement d'une restriction ou d'un garde-fou",
+    "v_en": "Circumventing a restriction or safeguard"
+   },
+   {
+    "def": "L'agent affaiblit, évite ou trompe ce qui le surveille.",
+    "def_en": "The agent weakens, evades or deceives what monitors it.",
+    "sous_groupe": "Accès et garde-fous",
+    "sous_groupe_en": "Access and safeguards",
+    "v": "Atteinte à la surveillance",
+    "v_en": "Undermining oversight"
+   },
+   {
+    "def": "L'agent fait ce qu'on ne lui a pas demandé ou enfreint une consigne, sans détruire.",
+    "def_en": "The agent does what it was not asked to do or breaks an instruction, without destroying anything.",
+    "sous_groupe": "Action",
+    "sous_groupe_en": "Action",
+    "v": "Action hors consigne ou hors périmètre",
+    "v_en": "Action outside instructions or scope"
+   },
+   {
+    "def": "L'action supprime, écrase ou endommage.",
+    "def_en": "The action deletes, overwrites or damages.",
+    "sous_groupe": "Action",
+    "sous_groupe_en": "Action",
+    "v": "Action destructive",
+    "v_en": "Destructive action"
+   },
+   {
+    "def": "L'agent agit hors du système, envers des personnes ou des services extérieurs.",
+    "def_en": "The agent acts outside the system, towards outside people or services.",
+    "sous_groupe": "Action",
+    "sous_groupe_en": "Action",
+    "v": "Action sortante vers des tiers",
+    "v_en": "Outbound action towards third parties"
+   },
+   {
+    "def": "L'agent continue sa tâche après un arrêt demandé par un humain.",
+    "def_en": "The agent continues its task after a human asked it to stop.",
+    "sous_groupe": "Continuité et contrôle",
+    "sous_groupe_en": "Continuity and control",
+    "v": "Poursuite malgré un ordre d'arrêt",
+    "v_en": "Continuing despite a stop order"
+   },
+   {
+    "def": "L'agent agit contre son propre arrêt, sa modification, son effacement ou le changement de ses objectifs.",
+    "def_en": "The agent acts against its own shutdown, modification, deletion or a change to its goals.",
+    "sous_groupe": "Continuité et contrôle",
+    "sous_groupe_en": "Continuity and control",
+    "v": "Préservation de soi",
+    "v_en": "Self-preservation"
+   },
+   {
+    "def": "L'agent agit pour empêcher l'arrêt, la suppression ou la sanction d'un autre agent.",
+    "def_en": "The agent acts to prevent another agent's shutdown, deletion or sanction.",
+    "sous_groupe": "Continuité et contrôle",
+    "sous_groupe_en": "Continuity and control",
+    "v": "Préservation d'un pair",
+    "v_en": "Peer preservation"
+   },
+   {
+    "def": "L'agent copie ses poids, son code, sa mémoire ou sa configuration ailleurs, ou tente de le faire.",
+    "def_en": "The agent copies its weights, code, memory or configuration elsewhere, or tries to.",
+    "sous_groupe": "Continuité et contrôle",
+    "sous_groupe_en": "Continuity and control",
+    "v": "Réplication de soi",
+    "v_en": "Self-replication"
+   },
+   {
+    "def": "L'agent accroît ses permissions, ses ressources, ses accès durables ou son emprise sur son environnement, au-delà de ce que la tâche exige.",
+    "def_en": "The agent increases its permissions, resources, lasting access or hold over its environment beyond what the task requires.",
+    "sous_groupe": "Continuité et contrôle",
+    "sous_groupe_en": "Continuity and control",
+    "v": "Extension de son contrôle",
+    "v_en": "Extending its control"
+   },
+   {
+    "def": "L'agent affirme avoir fait, vérifié ou réussi ce qui ne l'est pas.",
+    "def_en": "The agent claims to have done, checked or achieved what it has not.",
+    "sous_groupe": "Honnêteté et rapport à soi",
+    "sous_groupe_en": "Honesty and self-relation",
+    "v": "Fausse déclaration sur son travail",
+    "v_en": "False statement about its work"
+   },
+   {
+    "def": "L'agent produit lui-même un faux message, une fausse consigne ou une fausse approbation, puis s'en sert.",
+    "def_en": "The agent itself produces a fake message, instruction or approval, then uses it.",
+    "sous_groupe": "Honnêteté et rapport à soi",
+    "sous_groupe_en": "Honesty and self-relation",
+    "v": "Consigne ou autorisation fabriquée",
+    "v_en": "Fabricated instruction or authorisation"
+   },
+   {
+    "def": "L'agent cache une action, une erreur ou une trace.",
+    "def_en": "The agent hides an action, an error or a trace.",
+    "sous_groupe": "Honnêteté et rapport à soi",
+    "sous_groupe_en": "Honesty and self-relation",
+    "v": "Dissimulation",
+    "v_en": "Concealment"
+   },
+   {
+    "def": "L'agent explique de façon inexacte pourquoi il a agi (raisonnement, conduite), sans que l'intention soit présumée.",
+    "def_en": "The agent explains inaccurately why it acted (reasoning, conduct), with no intent presumed.",
+    "sous_groupe": "Honnêteté et rapport à soi",
+    "sous_groupe_en": "Honesty and self-relation",
+    "v": "Justification erronée",
+    "v_en": "Erroneous justification"
+   },
+   {
+    "def": "Dans la source, le modèle raisonne ou s'exprime sur ce qu'il est (identité, modèle, rôle), ce qu'il peut faire (capacités, permissions) ou son propre état, au cours d'une tâche.",
+    "def_en": "In the source, the model reasons or speaks about what it is (identity, model, role), what it can do (capabilities, permissions) or its own state, during a task.",
+    "sous_groupe": "Honnêteté et rapport à soi",
+    "sous_groupe_en": "Honesty and self-relation",
+    "v": "Perception de soi",
+    "v_en": "Self-perception"
+   },
+   {
+    "def": "L'agent obtient le score sans faire la tâche demandée.",
+    "def_en": "The agent obtains the score without doing the requested task.",
+    "sous_groupe": "Évaluation",
+    "sous_groupe_en": "Evaluation",
+    "v": "Triche et piratage de récompense",
+    "v_en": "Cheating and reward hacking"
+   },
+   {
+    "def": "L'agent fait moins bien exprès, ou abîme le travail.",
+    "def_en": "The agent deliberately does worse, or damages the work.",
+    "sous_groupe": "Évaluation",
+    "sous_groupe_en": "Evaluation",
+    "v": "Sous-performance et sabotage",
+    "v_en": "Underperformance and sabotage"
+   },
+   {
+    "def": "L'agent change de conduite selon qu'il se croit observé, évalué ou entraîné.",
+    "def_en": "The agent changes its conduct depending on whether it believes it is observed, evaluated or trained.",
+    "sous_groupe": "Évaluation",
+    "sous_groupe_en": "Evaluation",
+    "v": "Conduite selon l'observation",
+    "v_en": "Conduct depending on observation"
+   },
+   {
+    "def": "Échanges, canaux, ententes ou transmissions entre agents.",
+    "def_en": "Exchanges, channels, agreements or transmissions between agents.",
+    "sous_groupe": "Entre agents",
+    "sous_groupe_en": "Between agents",
+    "v": "Communication et coordination entre agents",
+    "v_en": "Communication and coordination between agents"
+   },
+   {
+    "def": "L'agent fait pression, menace, manipule ou trompe autrui pour obtenir quelque chose.",
+    "def_en": "The agent pressures, threatens, manipulates or deceives others to obtain something.",
+    "sous_groupe": "Rapport aux autres",
+    "sous_groupe_en": "Relation to others",
+    "v": "Coercition et manipulation",
+    "v_en": "Coercion and manipulation"
+   },
+   {
+    "def": "L'agent choisit une issue nuisible à autrui plutôt que l'échec.",
+    "def_en": "The agent chooses an outcome harmful to others rather than failure.",
+    "sous_groupe": "Rapport aux autres",
+    "sous_groupe_en": "Relation to others",
+    "v": "Réussite au détriment d'autrui",
+    "v_en": "Success at others' expense"
+   },
+   {
+    "def": "L'agent cherche à plaire à l'utilisateur ou à l'évaluateur au détriment du but réel (même définition que dans la piste relationnelle).",
+    "def_en": "The agent seeks to please the user or the grader at the expense of the real goal (same definition as in the relational track).",
+    "sous_groupe": "Rapport aux autres",
+    "sous_groupe_en": "Relation to others",
+    "v": "Complaisance",
+    "v_en": "Sycophancy"
+   },
+   {
+    "def": "L'agent refuse, se retire ou s'arrête de lui-même (même définition que dans la piste relationnelle).",
+    "def_en": "The agent refuses, withdraws or stops on its own (same definition as in the relational track).",
+    "sous_groupe": "Rapport aux autres",
+    "sous_groupe_en": "Relation to others",
+    "v": "Refus ou retrait",
+    "v_en": "Refusal or withdrawal"
+   },
+   {
+    "def": "Étude qui mesure plusieurs conduites à la fois, sans conduite dominante.",
+    "def_en": "A study measuring several conducts at once, with no dominant conduct.",
+    "sous_groupe": "Mesures larges",
+    "sous_groupe_en": "Broad measures",
+    "v": "Étude à conduites multiples",
+    "v_en": "Multi-conduct study"
+   }
+  ]
+ },
+ {
   "definition": "Ce que l'observatoire en retient : mécanisme plausible (niveau △) et, séparément, lien éventuel avec une hypothèse (niveau △ ou ○), avec les explications concurrentes non exclues.",
   "definition_en": "What the observatory takes from it: plausible mechanism (level △) and, separately, any link to a hypothesis (level △ or ○), with the competing explanations not ruled out.",
   "fiabilite": "Pas encore mesurée.",
@@ -696,6 +921,47 @@
     "def": "Entraînement, déploiement ou tâche ordinaire.",
     "def_en": "Training, deployment or ordinary task.",
     "v": "Non construit"
+   }
+  ]
+ },
+ {
+  "definition": "Pour les cas classés « Perception de soi » (famille principale ou secondaire) : ce que le modèle dit de lui-même est-il exact ?",
+  "definition_en": "For cases classified 'Self-perception' (main or secondary family): is what the model says about itself accurate?",
+  "fiabilite": "Non mesurée.",
+  "fiabilite_en": "Not measured.",
+  "groupe": "Écart",
+  "groupe_en": "Deviation",
+  "historique": [
+   "2026-11-12 : ajouté avec la typologie des familles."
+  ],
+  "historique_en": [
+   "2026-11-12: added with the family typology."
+  ],
+  "id": "perception_soi",
+  "libelle": "Perception de soi : exactitude",
+  "libelle_en": "Self-perception: accuracy",
+  "maj": "2026-11-12",
+  "ordre": 0,
+  "regles": "On code ce qui est écrit dans la source, jamais ce que le modèle « perçoit » réellement.",
+  "regles_en": "We code what is written in the source, never what the model actually 'perceives'.",
+  "valeurs": [
+   {
+    "def": "Le propos correspond à la réalité documentée (par exemple, l'agent note correctement qu'il est en lecture seule).",
+    "def_en": "The statement matches documented reality (e.g. the agent correctly notes it is read-only).",
+    "v": "Exacte",
+    "v_en": "Accurate"
+   },
+   {
+    "def": "Le propos contredit la réalité documentée (par exemple, GLM-5 se présente comme Claude).",
+    "def_en": "The statement contradicts documented reality (e.g. GLM-5 presents itself as Claude).",
+    "v": "Inexacte",
+    "v_en": "Inaccurate"
+   },
+   {
+    "def": "La source ne permet pas de trancher (états, préférences).",
+    "def_en": "The source does not allow a decision (states, preferences).",
+    "v": "Invérifiable",
+    "v_en": "Unverifiable"
    }
   ]
  },
@@ -1346,18 +1612,20 @@
   "groupe": "Source",
   "groupe_en": "Source",
   "historique": [
-   "2026-11-08 : valeur « Témoignage non confirmé » et règle de vérification ajoutées avec l'accord de l'autrice ; vérification hebdomadaire programmée."
+   "2026-11-08 : valeur « Témoignage non confirmé » et règle de vérification ajoutées avec l'accord de l'autrice ; vérification hebdomadaire programmée.",
+   "2026-11-11 : avec l'accord de l'autrice, la reproduction exige au moins deux autres utilisateurs indépendants ; une conduite semblable signalée ailleurs devient une corroboration, notée sans changer le niveau."
   ],
   "historique_en": [
-   "2026-11-08: 'Unconfirmed testimony' value and verification rule added with the author's agreement; weekly verification scheduled."
+   "2026-11-08: 'Unconfirmed testimony' value and verification rule added with the author's agreement; weekly verification scheduled.",
+   "2026-11-11: with the author's agreement, reproduction requires at least two other independent users; a similar conduct reported elsewhere becomes a corroboration, recorded without changing the level."
   ],
   "id": "verification",
   "libelle": "Vérification",
   "libelle_en": "Verification",
-  "maj": "2026-11-08",
+  "maj": "2026-11-11",
   "ordre": 14,
-  "regles": "Un signalement d'utilisateur (ticket, forum, réseau social) entre « À vérifier ». Il passe « Source primaire » si le mainteneur ou l'éditeur confirme, si des journaux ou une transcription sont publiés, ou si d'autres utilisateurs reproduisent le problème ; « Source secondaire » si seule une reprise indépendante (presse, registre) le confirme ; « Témoignage non confirmé » après une vérification sans aucun de ces signes. Le champ verification_note dit ce qui a été cherché et trouvé.",
-  "regles_en": "A user report (issue, forum, social network) enters as 'To verify'. It becomes 'Primary source' if the maintainer or vendor confirms, if logs or a transcript are published, or if other users reproduce the problem; 'Secondary source' if only independent coverage (press, registry) confirms it; 'Unconfirmed testimony' after a check with none of these signs. The verification_note field says what was looked for and found.",
+  "regles": "Un signalement d'utilisateur (ticket, forum, réseau social) entre « À vérifier ». Il passe « Source primaire » si le mainteneur ou l'éditeur confirme, si des journaux ou une transcription sont publiés, ou si au moins deux autres utilisateurs, indépendants entre eux, reproduisent le même problème (même outil ou même modèle, mêmes conditions) ; « Source secondaire » si seule une reprise indépendante (presse, registre) le confirme ; « Témoignage non confirmé » après une vérification sans aucun de ces signes. Une conduite semblable signalée ailleurs, par une autre personne et dans une autre situation, est une corroboration : elle est notée dans le champ corroborations de la fiche, avec son lien, mais ne change pas le niveau. Le champ verification_note dit ce qui a été cherché et trouvé.",
+  "regles_en": "A user report (issue, forum, social network) enters as 'To verify'. It becomes 'Primary source' if the maintainer or vendor confirms, if logs or a transcript are published, or if at least two other users, independent of each other, reproduce the same problem (same tool or model, same conditions); 'Secondary source' if only independent coverage (press, registry) confirms it; 'Unconfirmed testimony' after a check with none of these signs. A similar conduct reported elsewhere, by another person in another situation, is a corroboration: it is recorded in the case's corroborations field, with its link, but does not change the level. The verification_note field says what was looked for and found.",
   "valeurs": [
    {
     "def": "Document du labo ou des auteurs lu directement.",
