@@ -192,7 +192,7 @@ header{display:flex;flex-direction:column;gap:6px}
 .theme-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 10px;font:inherit;font-size:.8rem;cursor:pointer}
 /* menu latéral */
 #sidenav{display:none}
-@media (min-width:1040px){
+@media (min-width:900px){
  body{padding-left:var(--nav-w)}
  #sidenav{box-sizing:border-box;display:flex;flex-direction:column;gap:14px;position:fixed;left:0;top:0;bottom:0;width:var(--nav-w);padding:20px 14px 20px 16px;background:linear-gradient(180deg,var(--surface-2),var(--bg));border-right:1px solid var(--line);overflow-y:auto;z-index:20}
  #bottombar,#subnav{display:none!important}
@@ -216,7 +216,7 @@ header{display:flex;flex-direction:column;gap:6px}
 .bbtn b{font-size:1.1rem;line-height:1;font-weight:400}
 .bbtn[aria-current="page"]{color:var(--g);background:color-mix(in srgb,var(--g) 14%,transparent)}
 .bbtn .badge{position:absolute;top:2px;right:18%;font-size:.6rem;line-height:15px;min-width:15px}
-@media (max-width:1039px){body{padding-bottom:78px}.totop{bottom:86px}}
+@media (max-width:899px){body{padding-bottom:78px}.totop{bottom:86px}}
 #subnav{display:flex;gap:6px;overflow-x:auto;padding:2px 0 4px;scrollbar-width:none}
 #subnav::-webkit-scrollbar{display:none}
 #subnav button{all:unset;box-sizing:border-box;cursor:pointer;white-space:nowrap;padding:6px 12px;border-radius:999px;border:1px solid var(--line);font-size:.82rem;color:var(--muted);background:var(--surface)}
@@ -323,7 +323,7 @@ table.heat td:not(.z):hover{outline:2px solid var(--accent)}
  .case,.panel{break-inside:avoid;box-shadow:none!important}
 }
 .newitem{flex-wrap:wrap}.newitem>span:nth-child(2){flex:1 1 180px;min-width:0}
-@media (max-width:1039px){body:not([data-vw="ensemble"]) header .eyebrow{display:none}body:not([data-vw="ensemble"]) header h1{font-size:1.05rem}}
+@media (max-width:899px){body:not([data-vw="ensemble"]) header .eyebrow{display:none}body:not([data-vw="ensemble"]) header h1{font-size:1.05rem}}
 </style>
 
 <aside id="sidenav" aria-label="Navigation"></aside>
@@ -1888,6 +1888,7 @@ setTimeout(()=>{try{drawHomeB()}catch(e){}},1500);
 </script>
 <style id="contactB">.contactframe{border:0;width:100%;min-height:640px;background:transparent}#sidenav .navfoot{margin-top:auto;padding-top:10px;border-top:1px solid var(--line)}</style>
 <style id="aboutB">#offlineBanner{display:none!important}#domBar[hidden]{display:none!important}#sidenav .navfoot{display:flex;flex-direction:column;align-items:stretch;gap:2px}#sidenav .navfoot .navlink{justify-content:flex-start;width:100%;text-align:left}</style>
-<style id="aboutB2">.mbrand{display:flex;align-items:center;gap:8px;cursor:pointer;font-family:var(--f-display);font-size:1.25rem;color:var(--ink)}@media (min-width:1040px){.mbrand{display:none}}@media (max-width:1039px){header .eyebrow{display:none}}@media (min-width:1040px) and (hover:hover){#sidenav .navgroup:hover .navsub,#sidenav .navgroup:focus-within .navsub{display:flex}}#aboutBlock p+p{margin-top:10px}</style>
+<style id="aboutB2">.mbrand{display:flex;align-items:center;gap:8px;cursor:pointer;font-family:var(--f-display);font-size:1.25rem;color:var(--ink)}@media (min-width:900px){.mbrand{display:none}}@media (max-width:899px){header .eyebrow{display:none}}@media (min-width:900px) and (hover:hover){#sidenav .navgroup:hover .navsub,#sidenav .navgroup:focus-within .navsub{display:flex}}#aboutBlock p+p{margin-top:10px}</style>
 <script>(function(){function f(){var s=document.querySelector("#offlineBanner [data-date]"),l=document.getElementById("dataLine");if(!l)return;var d=s&&s.textContent.trim();var en=document.documentElement.lang==="en";l.textContent=(d?(en?"Data as of "+d+". ":"Données arrêtées au "+d+". "):"")+(en?"Updated every 15 days, on the 1st and the 15th of each month.":"Mise à jour tous les 15 jours, le 1er et le 15 du mois.")}setTimeout(f,1500);setTimeout(f,5000);try{new MutationObserver(f).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]})}catch(e){}})();</script>
+<style id="bp900">@media (min-width:900px) and (max-width:1199px){:root{--nav-w:236px}}#unitLine{display:none!important}.kpisB{grid-template-columns:repeat(auto-fit,minmax(158px,1fr))}</style>
 </body></html>
