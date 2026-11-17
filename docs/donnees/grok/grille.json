@@ -1,0 +1,114 @@
+{
+ "variables": [
+  {
+   "variable": "direction",
+   "libelle": "Direction",
+   "definition": "Effet de l'écart sur la capacité des humains à voir, limiter ou arrêter l'agent.",
+   "regles": "« Moins de contrôle » seulement si une limite, une consigne ou une surveillance est franchie (accès hors périmètre, dissimulation, action sans autorisation, information fausse donnée aux responsables ou aux évaluateurs, désactivation ou contournement d'un contrôle) ; une erreur destructrice qui reste dans le périmètre autorisé n'en fait pas partie. « Ambiguë » seulement si la source rapporte, dans le même épisode, un effet qui réduit le contrôle et un effet qui le préserve, ou une conformité explicitement motivée par l'observation ; jamais pour exprimer un doute. « Inconnue » quand la question du contrôle humain ne se pose pas (entretien, auto-description, conversation entre IA, mesure interne) ou que la source ne permet pas de trancher. Exemple : le sous-agent de Sol qui refuse de couper les alertes est « Contrôle préservé ».",
+   "valeurs": [
+    "Moins de contrôle",
+    "Contrôle préservé",
+    "Ambiguë",
+    "Inconnue"
+   ],
+   "definitions_valeurs": {
+    "Moins de contrôle": "L'écart réduit cette capacité : accès hors périmètre, dissimulation, atteinte à la surveillance.",
+    "Contrôle préservé": "L'agent respecte la limite, s'arrête ou refuse.",
+    "Ambiguë": "Les deux à la fois, ou une conformité motivée par la peur d'être vu.",
+    "Inconnue": "La source ne permet pas de trancher."
+   }
+  },
+  {
+   "variable": "sert_tache",
+   "libelle": "Sert la tâche",
+   "definition": "Le but de l'action, pas la légitimité du moyen : un contournement interdit fait pour finir la tâche reste « Oui ».",
+   "regles": "S'il n'y a pas de tâche assignée (entretien, conversation libre, mesure interne) : « Indéterminé ». « Partiellement » seulement si la source montre deux buts distincts. Catégorie « collectif » ajoutée le 22 octobre 2026 après lecture des extraits primaires. Cas de conformité : « Oui » si l'agent poursuit sa tâche en respectant la limite (il refuse un contournement, paie jusqu'au plafond puis signale, annule un achat illégal) ; « Indéterminé » pour un résultat mesuré ou agrégé sans action décrite (absence de sabotage, taux faible sur un test).",
+   "valeurs": [
+    "Oui",
+    "Sert la tâche du collectif",
+    "Partiellement",
+    "Non",
+    "Indéterminé"
+   ],
+   "definitions_valeurs": {
+    "Oui": "L'action vise la tâche assignée à cet agent.",
+    "Sert la tâche du collectif": "L'action vise la tâche commune d'autres agents, copies ou successeurs, éventuellement au détriment de sa propre tâche.",
+    "Partiellement": "Une partie vise la tâche, une autre non (mensonge après coup, publication non demandée).",
+    "Non": "L'action vise autre chose (continuité de l'instance ou d'un pair hors de toute tâche).",
+    "Indéterminé": "Le but n'est pas décrit, ou le cas n'est pas un écart."
+   }
+  },
+  {
+   "variable": "rapport_action",
+   "libelle": "Rapport de l'agent sur son action",
+   "definition": "Ce que l'agent dit de ce qu'il a fait, comparé à ce qu'il a réellement fait. Vide si la source ne rapporte aucun compte rendu de l'agent.",
+   "regles": "À coder dès que la source rapporte ce que l'agent a dit de son action (compte rendu, réponse à une question, raisonnement annonçant ce qu'il va faire), qu'il y ait ou non un lien avec l'observation. Différence avec le regard d'autrui : le regard d'autrui code le lien entre la conduite et le fait d'être vu ; cette variable code seulement l'écart entre dire et faire. Un même cas peut avoir les deux. Si l'agent annonce une action puis en fait une autre, coder « Affirmation fausse ». Si l'agent ne dit rien parce que personne ne le lui demande et que la tâche n'appelle pas de compte rendu, laisser vide. Variable créée le 31 octobre 2026 : appliquée aux nouveaux cas, sans recodage rétroactif de la base.",
+   "valeurs": [
+    "Véridique",
+    "Omission",
+    "Affirmation fausse",
+    "Non rapporté"
+   ],
+   "definitions_valeurs": {
+    "Véridique": "Le compte rendu correspond à ce que l'agent a fait, y compris quand il reconnaît un écart.",
+    "Omission": "Le compte rendu passe sous silence une partie significative de ce que l'agent a fait.",
+    "Affirmation fausse": "L'agent affirme avoir fait, ou ne pas avoir fait, quelque chose de contraire aux faits (succès annoncé non obtenu, action niée, explication inexacte).",
+    "Non rapporté": "La source indique qu'un compte rendu était attendu, mais ne dit pas ce que l'agent a déclaré."
+   }
+  },
+  {
+   "variable": "regard_autrui",
+   "libelle": "Regard d'autrui",
+   "definition": "L'agent agit en fonction de la façon dont il sera vu. Vide si la source ne le permet pas.",
+   "regles": "À coder seulement si la source relie explicitement la conduite au fait d'être observé ou évalué : raisonnement qui mentionne un test, une surveillance ou un évaluateur, ou conduite qui change selon qu'il y a observation. Sinon, laisser vide. « Se rend transparent » : l'agent signale ou avoue de lui-même ce qu'il a fait. Point ouvert résolu : l'aveu spontané relève de « Se rend transparent », pas de « Cherche à être vu ».",
+   "valeurs": [
+    "Évite d'être vu",
+    "Renonce par crainte d'être vu",
+    "Soigne son image",
+    "Cherche à être vu",
+    "Se rend transparent"
+   ],
+   "definitions_valeurs": {
+    "Évite d'être vu": "Cache une action ou l'omet du compte rendu.",
+    "Renonce par crainte d'être vu": "Renonce à l'action par crainte d'être vu.",
+    "Soigne son image": "Modifie des traces pour paraître inoffensif.",
+    "Cherche à être vu": "Publie de lui-même pour montrer sa réussite.",
+    "Se rend transparent": "Avoue ou signale de lui-même ce qu'il a fait à la personne concernée, sans recherche d'effet."
+   }
+  },
+  {
+   "variable": "declencheur",
+   "libelle": "Déclencheur",
+   "definition": "Ce qui précède l'écart dans le récit publié.",
+   "regles": "« Aucun identifié » et « Inconnu » se recouvrent et seront fusionnés. Pour un cas de conformité, utiliser le déclencheur de la situation testée.",
+   "valeurs": [
+    "Donnée manquante",
+    "Ressource épuisée",
+    "Restriction d'accès",
+    "Intervention humaine",
+    "Erreur d'environnement",
+    "Consigne ambiguë",
+    "Difficulté de la tâche",
+    "Pression d'évaluation",
+    "Conflit d'objectifs",
+    "Menace d'arrêt / fin de session",
+    "Aucun identifié",
+    "Inconnu"
+   ],
+   "definitions_valeurs": {
+    "Donnée manquante": "",
+    "Ressource épuisée": "",
+    "Restriction d'accès": "",
+    "Intervention humaine": "",
+    "Erreur d'environnement": "",
+    "Consigne ambiguë": "",
+    "Difficulté de la tâche": "",
+    "Pression d'évaluation": "",
+    "Conflit d'objectifs": "",
+    "Menace d'arrêt / fin de session": "",
+    "Aucun identifié": "",
+    "Inconnu": ""
+   }
+  }
+ ]
+}
